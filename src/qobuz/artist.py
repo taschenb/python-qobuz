@@ -1,3 +1,6 @@
+from qobuz import api
+
+
 class Artist(object):
     """This class represents an artist from the Qobuz-API.
 
@@ -27,3 +30,27 @@ class Artist(object):
             and self.slug == other.slug
             and self.albums_count == other.albums_count
         )
+
+    @classmethod
+    def search(cls, artist, limit=50, offset=0):
+        """Search for an artist.
+
+        Parameters
+        ----------
+        query: str
+            Search query
+        limit: int
+            Number of elements returned per request
+        offset: int
+            Offset from which to obtain limit elements
+
+        Returns
+        -------
+        list of Artist
+            Resulting playlists for the search query
+        """
+        req = api.request(
+            "artist/search", query=artist, limit=limit, offset=offset
+        )
+
+        return [cls(a) for a in req["artists"]["items"]]
