@@ -59,6 +59,10 @@ class Artist(object):
         return [Album(a) for a in albums["albums"]["items"]]
 
     @classmethod
+    def from_id(cls, id):
+        return cls(api.request("artist/get", artist_id=id))
+
+    @classmethod
     def search(cls, artist, limit=50, offset=0):
         """Search for an artist.
 
