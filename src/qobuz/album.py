@@ -39,6 +39,10 @@ class Album(object):
         )
 
     @classmethod
+    def from_id(cls, id):
+        return cls(api.request("album/get", album_id=id))
+
+    @classmethod
     def search(cls, query, limit=50, offset=0):
         """Search for a album.
 
