@@ -1,0 +1,24 @@
+{
+    "query": "MGMT",
+    "artists": {
+        "limit": 2,
+        "offset": 0,
+        "total": 86346,
+        "items": [
+            {
+                "id": 118680,
+                "picture": null,
+                "slug": "mgmt",
+                "albums_count": 29,
+                "name": "MGMT"
+            },
+            {
+                "id": 824184,
+                "picture": null,
+                "slug": "mgm",
+                "albums_count": 3,
+                "name": "MGM"
+            }
+        ]
+    }
+}
