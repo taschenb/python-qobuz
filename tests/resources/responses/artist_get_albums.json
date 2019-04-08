@@ -1,0 +1,1622 @@
+{
+    "picture": null,
+    "id": 36819,
+    "albums_as_primary_composer_count": 3,
+    "albums_count": 52,
+    "albums_as_primary_artist_count": 49,
+    "name": "Daft Punk",
+    "image": {
+        "small": "http://userserve-ak.last.fm/serve/34s/10923145.png",
+        "medium": "http://userserve-ak.last.fm/serve/64s/10923145.png",
+        "large": "http://userserve-ak.last.fm/serve/126s/10923145.png",
+        "extralarge": "http://userserve-ak.last.fm/serve/252/10923145.png",
+        "mega": "http://userserve-ak.last.fm/serve/500/10923145/Daft+Punk+6a00e398210d13883300e55ui6.png"
+    },
+    "slug": "daft-punk",
+    "biography": {
+        "summary": "Evolving from French house pioneers in the '90s to 2000s tastemakers to mainstream successes in the 2010s, Daft Punk remained one of dance music's most influential and iconic acts. The combined talents of Guy-Manuel de Homem-Christo and Thomas Bangalter, the Parisian duo quickly won acclaim for their unique blend of first-wave acid house and techno with pop, indie rock, and hip-hop. One of the pair's first projects together was Darling, an...",
+        "content": "Evolving from French house pioneers in the '90s to 2000s tastemakers to mainstream successes in the 2010s, Daft Punk remained one of dance music's most influential and iconic acts. The combined talents of Guy-Manuel de Homem-Christo and Thomas Bangalter, the Parisian duo quickly won acclaim for their unique blend of first-wave acid house and techno with pop, indie rock, and hip-hop. One of the pair's first projects together was Darling, an instrumental indie cover band; their current recording name derives from a review in U.K. music weekly Melody Maker of a compilation tape Darling were featured on, released by Krautrock revivalists Stereolab (their lo-fi D.I.Y. cover of a Beach Boys song was derided as \"daft punk\"). Subsequently ditching the almost inevitable creative cul-de-sac of rock for the more appealing rush of the dancefloor, the pair released their debut single, \"The New Wave,\" in 1993 on the celebrated Soma label. Instantly hailed by the dance music press as the work of a new breed of house innovators, the single was followed by \"Da Funk,\" the band's first true hit (the record sold 30,000 copies worldwide and saw thorough rinsings by everyone from Kris Needs to the Chemical Brothers). Although the group had only released a trio of singles (\"The New Wave\" and \"Da Funk,\" as well as the 1996 limited pressing of \"Musique\"), in early 1996 Daft Punk were the subject of a minor bidding war. The group eventually signed with Virgin, with its first long-player, Homework, appearing early the following year (a brief preview of the album, \"Musique,\" was also featured on the Virgin compilation Wipeout XL next to tracks from Photek, Future Sound of London, the Chemical Brothers, and Source Direct). As with the earlier singles, the group's sound is a brazen, dancefloor-oriented blend of progressive house, funk, electro, and techno, with sprinklings of hip-hop-styled breakbeats and excessive, crowd-firing samples similar to other anthemic dance-fusion acts such as the Chemical Brothers and Monkey Mafia. In addition to his role in Daft Punk, Bangalter operates the Roulé label and has recorded under his own name (the underground smash \"Trax on da Rocks\") as well as Stardust (the huge club/commercial hit \"Music Sounds Better with You\"). After four long years of fans eagerly awaiting a follow-up to their brilliant debut, Daft Punk finally issued Discovery in March 2001. The live record Alive 1997 followed at the end of the year, and a by-now predictable four-year wait preceded the release of Human After All in early 2005. One year later, Daft Punk released a compilation, Musique, Vol. 1: 1993-2005, and in 2007 their second live record, Alive 2007, arrived. The album and its single \"Harder, Better, Faster, Stronger\" won Grammy Awards early in 2009; shortly after, it was announced that the duo would compose the soundtrack to Tron: Legacy, the sequel to the 1982 classic sci-fi film Tron. Daft Punk's music for the movie was released in November 2010, shortly before the film -- which featured the group in a cameo -- arrived in theaters. Early in 2013, Daft Punk announced that they planned to have a new album released by May of that year. That March, the duo announced the album's title, Random Access Memories, and launched an extensive press campaign that featured snippets of the album's lead single, \"Get Lucky,\" and interviews with some of their collaborators, who included Nile Rodgers, Paul Williams, Giorgio Moroder, and Panda Bear. The single was officially released in April, and Random Access Memories arrived in May. The album became one of Daft Punk's biggest successes, ultimately winning Grammy Awards for Best Dance/Electronica Album, Album of the Year, and Best Engineered Album, Non-Classical; \"Get Lucky\" earned Grammys for Best Pop Duo/Group Performance and Record of the Year. In 2014, the duo appeared on Pharrell's album G I R L and collaborated with Jay-Z on the song \"Computerized.\" ~ Sean Cooper"
+    },
+    "albums": {
+        "offset": 0,
+        "limit": 25,
+        "total": 36,
+        "items": [
+            {
+                "id": "0886443927087",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 13,
+                "title": "Random Access Memories (Édition Studio Masters)",
+                "released_at": 1368741600,
+                "duration": 4470,
+                "articles": [
+                    {
+                        "id": 16250176,
+                        "label": "Qualité CD 16 bits",
+                        "price": 12.99,
+                        "type": "lls",
+                        "url": "/order/16250176",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    },
+                    {
+                        "id": 16250177,
+                        "label": "Hi-Res",
+                        "price": 15.39,
+                        "type": "smr",
+                        "url": "/order/16250177",
+                        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/87/70/0886443927087_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/87/70/0886443927087_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/87/70/0886443927087_50.jpg"
+                },
+                "label": {
+                    "id": 4592,
+                    "slug": "columbia",
+                    "supplier_id": 23,
+                    "albums_count": 13773,
+                    "name": "Columbia"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 9140023,
+                "popularity": 1.1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1429912800,
+                "streamable_at": 1429221600,
+                "maximum_sampling_rate": 88.2,
+                "maximum_bit_depth": 24,
+                "hires": true
+            },
+            {
+                "id": "0886444079006",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 1,
+                "title": "Get Lucky (Daft Punk Remix)",
+                "released_at": 1372802400,
+                "duration": 632,
+                "articles": [
+                    {
+                        "id": 20955693,
+                        "label": "Qualité CD 16 bits",
+                        "price": 2.09,
+                        "type": "lls",
+                        "url": "/order/20955693",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    },
+                    {
+                        "id": 20955694,
+                        "label": "Hi-Res",
+                        "price": 2.59,
+                        "type": "smr",
+                        "url": "/order/20955694",
+                        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/06/90/0886444079006_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/06/90/0886444079006_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/06/90/0886444079006_50.jpg"
+                },
+                "label": {
+                    "id": 4592,
+                    "slug": "columbia",
+                    "supplier_id": 23,
+                    "albums_count": 13773,
+                    "name": "Columbia"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 10137213,
+                "popularity": 1.1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1429912800,
+                "streamable_at": 1429221600,
+                "maximum_sampling_rate": 88.2,
+                "maximum_bit_depth": 24,
+                "hires": true
+            },
+            {
+                "id": "0886443973442",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 1,
+                "title": "Get Lucky",
+                "released_at": 1366408800,
+                "duration": 247,
+                "articles": [
+                    {
+                        "id": 17041485,
+                        "label": "Qualité CD 16 bits",
+                        "price": 1.59,
+                        "type": "lls",
+                        "url": "/order/17041485",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    },
+                    {
+                        "id": 17041486,
+                        "label": "Hi-Res",
+                        "price": 2.59,
+                        "type": "smr",
+                        "url": "/order/17041486",
+                        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/42/34/0886443973442_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/42/34/0886443973442_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/42/34/0886443973442_50.jpg"
+                },
+                "label": {
+                    "id": 4592,
+                    "slug": "columbia",
+                    "supplier_id": 23,
+                    "albums_count": 13773,
+                    "name": "Columbia"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 8767427,
+                "popularity": 1.1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1429912800,
+                "streamable_at": 1429221600,
+                "maximum_sampling_rate": 88.2,
+                "maximum_bit_depth": 24,
+                "hires": true
+            },
+            {
+                "id": "5099951165857",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 13,
+                "title": "Alive 2007",
+                "released_at": 1195167600,
+                "duration": 5033,
+                "articles": [
+                    {
+                        "id": 2521923,
+                        "label": "Qualité CD 16 bits",
+                        "price": 7.4,
+                        "type": "lls",
+                        "url": "/order/2521923",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/57/58/5099951165857_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/57/58/5099951165857_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/57/58/5099951165857_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 2370960,
+                "popularity": 1.1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0724384960650",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 14,
+                "title": "Discovery",
+                "released_at": 983919600,
+                "duration": 3649,
+                "articles": [
+                    {
+                        "id": 2511397,
+                        "label": "Qualité CD 16 bits",
+                        "price": 6.23,
+                        "type": "lls",
+                        "url": "/order/2511397",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/50/06/0724384960650_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/50/06/0724384960650_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/50/06/0724384960650_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 3142537,
+                "popularity": 1.1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1425423600,
+                "streamable_at": 1425423600,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 16,
+                "genre": {
+                    "id": 64,
+                    "color": "#5eabc1",
+                    "name": "Electro",
+                    "path": [
+                        64
+                    ],
+                    "slug": "electro"
+                },
+                "articles": [
+                    {
+                        "id": 2511379,
+                        "price": 6.23,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/2511379",
+                        "currency": "GBP"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/58/09/0724384260958_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/58/09/0724384260958_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/58/09/0724384260958_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 49329,
+                    "supplier_id": 5,
+                    "albums_count": 4861,
+                    "name": "Parlophone Label Group",
+                    "slug": "parlophone-gp"
+                },
+                "id": "0724384260958",
+                "duration": 4422,
+                "released_at": 853369200,
+                "title": "Homework",
+                "artist": {
+                    "picture": null,
+                    "id": 36819,
+                    "albums_count": 52,
+                    "name": "Daft Punk",
+                    "image": null,
+                    "slug": "daft-punk"
+                },
+                "qobuz_id": 2370792,
+                "popularity": 1.1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1425423600,
+                "streamable_at": 1425423600,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0886443982291",
+                "genre": {
+                    "path": [
+                        112,
+                        117
+                    ],
+                    "id": 117,
+                    "slug": "pop",
+                    "color": "#5eabc1",
+                    "name": "Pop"
+                },
+                "tracks_count": 1,
+                "title": "Get Lucky",
+                "released_at": 1386111600,
+                "duration": 247,
+                "articles": [
+                    {
+                        "id": 31595786,
+                        "label": "Qualité CD 16 bits",
+                        "price": 1.29,
+                        "type": "lls",
+                        "url": "/order/31595786",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    },
+                    {
+                        "id": 31595787,
+                        "label": "Hi-Res",
+                        "price": 1.49,
+                        "type": "smr",
+                        "url": "/order/31595787",
+                        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/91/22/0886443982291_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/91/22/0886443982291_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/91/22/0886443982291_50.jpg"
+                },
+                "label": {
+                    "id": 4592,
+                    "slug": "columbia",
+                    "supplier_id": 23,
+                    "albums_count": 13773,
+                    "name": "Columbia"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 12861286,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1429912800,
+                "streamable_at": 1429221600,
+                "maximum_sampling_rate": 88.2,
+                "maximum_bit_depth": 24,
+                "hires": true
+            },
+            {
+                "id": "5099902746159",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 15,
+                "title": "TRON Legacy: Reconfigured",
+                "released_at": 1301608800,
+                "duration": 4663,
+                "articles": [
+                    {
+                        "id": 3438975,
+                        "label": "Qualité CD 16 bits",
+                        "price": 12.99,
+                        "type": "lls",
+                        "url": "/order/3438975",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/59/61/5099902746159_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/59/61/5099902746159_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/59/61/5099902746159_50.jpg"
+                },
+                "label": {
+                    "id": 64812,
+                    "slug": "parlophone-catalogue-2",
+                    "supplier_id": 1,
+                    "albums_count": 505,
+                    "name": "Parlophone Catalogue"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 3426924,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1425164400,
+                "streamable_at": 1425164400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "5099994977752",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 22,
+                "title": "TRON: Legacy",
+                "released_at": 1291330800,
+                "duration": 3515,
+                "articles": [
+                    {
+                        "id": 2897185,
+                        "price": 11.69,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "promotion": {
+                            "id": 1220,
+                            "original_price": 12.99
+                        },
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/2897185",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/52/77/5099994977752_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/52/77/5099994977752_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/52/77/5099994977752_50.jpg"
+                },
+                "label": {
+                    "id": 64812,
+                    "slug": "parlophone-catalogue-2",
+                    "supplier_id": 1,
+                    "albums_count": 505,
+                    "name": "Parlophone Catalogue"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 2730436,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1431468000,
+                "streamable_at": 1431468000,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "5099950983858",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 12,
+                "title": "Alive 2007",
+                "released_at": 1195167600,
+                "duration": 4434,
+                "articles": [
+                    {
+                        "id": 4507720,
+                        "label": "Qualité CD 16 bits",
+                        "price": 6.23,
+                        "type": "lls",
+                        "url": "/order/4507720",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/58/38/5099950983858_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/58/38/5099950983858_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/58/38/5099950983858_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 4605126,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 15,
+                "genre": {
+                    "id": 64,
+                    "color": "#5eabc1",
+                    "name": "Electro",
+                    "path": [
+                        64
+                    ],
+                    "slug": "electro"
+                },
+                "articles": [
+                    {
+                        "id": 2520368,
+                        "price": 6.23,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/2520368",
+                        "currency": "GBP"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/51/05/0094635840551_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/51/05/0094635840551_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/51/05/0094635840551_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 49433,
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France",
+                    "slug": "parlophone-france"
+                },
+                "id": "0094635840551",
+                "duration": 4493,
+                "released_at": 1143756000,
+                "title": "Musique Vol 1 (1993 - 2005)",
+                "artist": {
+                    "picture": null,
+                    "id": 36819,
+                    "albums_count": 52,
+                    "name": "Daft Punk",
+                    "image": null,
+                    "slug": "daft-punk"
+                },
+                "qobuz_id": 2601880,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0724356356252",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 10,
+                "title": "Human After All",
+                "released_at": 1110668400,
+                "duration": 2735,
+                "articles": [
+                    {
+                        "id": 1389749,
+                        "label": "Qualité CD 16 bits",
+                        "price": 6.23,
+                        "type": "lls",
+                        "url": "/order/1389749",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/52/62/0724356356252_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/52/62/0724356356252_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/52/62/0724356356252_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 2370762,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1425423600,
+                "streamable_at": 1425423600,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0724381113950",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 1,
+                "title": "Alive 1997",
+                "released_at": 1106262000,
+                "duration": 2731,
+                "articles": [
+                    {
+                        "id": 2370386,
+                        "label": "Qualité CD 16 bits",
+                        "price": 6.23,
+                        "type": "lls",
+                        "url": "/order/2370386",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/50/39/0724381113950_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/50/39/0724381113950_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/50/39/0724381113950_50.jpg"
+                },
+                "label": {
+                    "id": 49329,
+                    "slug": "parlophone-gp",
+                    "supplier_id": 5,
+                    "albums_count": 4861,
+                    "name": "Parlophone Label Group"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 2209425,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1430690400,
+                "streamable_at": 1430690400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0724359638959",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 14,
+                "title": "Daft Club",
+                "released_at": 1070233200,
+                "duration": 4379,
+                "articles": [
+                    {
+                        "id": 2521104,
+                        "label": "Qualité CD 16 bits",
+                        "price": 6.23,
+                        "type": "lls",
+                        "url": "/order/2521104",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/59/89/0724359638959_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/59/89/0724359638959_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/59/89/0724359638959_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 2370774,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1425423600,
+                "streamable_at": 1425423600,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 1,
+                "genre": {
+                    "id": 64,
+                    "color": "#5eabc1",
+                    "name": "Electro",
+                    "path": [
+                        64
+                    ],
+                    "slug": "electro"
+                },
+                "articles": [
+                    {
+                        "id": 5320091,
+                        "price": 1.55,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/5320091",
+                        "currency": "GBP"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/59/12/5099991411259_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/59/12/5099991411259_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/59/12/5099991411259_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 49433,
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France",
+                    "slug": "parlophone-france"
+                },
+                "id": "5099991411259",
+                "duration": 199,
+                "released_at": 1340316000,
+                "title": "Human After All (Medley)",
+                "artist": {
+                    "picture": null,
+                    "id": 36819,
+                    "albums_count": 52,
+                    "name": "Daft Punk",
+                    "image": null,
+                    "slug": "daft-punk"
+                },
+                "qobuz_id": 5608434,
+                "popularity": 0.5,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421362800,
+                "streamable_at": 1421362800,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0094633005259",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 1,
+                "title": "Technologic (Basement Jaxx Remix )",
+                "released_at": 1118613600,
+                "duration": 331,
+                "articles": [
+                    {
+                        "id": 2081815,
+                        "label": "Qualité CD 16 bits",
+                        "price": 1.55,
+                        "type": "lls",
+                        "url": "/order/2081815",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/59/52/0094633005259_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/59/52/0094633005259_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/59/52/0094633005259_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 2555568,
+                "popularity": 0.5,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0094633005457",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 1,
+                "title": "Technologic (Vitalic Remix)",
+                "released_at": 1118613600,
+                "duration": 324,
+                "articles": [
+                    {
+                        "id": 2520260,
+                        "label": "Qualité CD 16 bits",
+                        "price": 1.55,
+                        "type": "lls",
+                        "url": "/order/2520260",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/57/54/0094633005457_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/57/54/0094633005457_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/57/54/0094633005457_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 2555570,
+                "popularity": 0.5,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 1,
+                "genre": {
+                    "id": 64,
+                    "color": "#5eabc1",
+                    "name": "Electro",
+                    "path": [
+                        64
+                    ],
+                    "slug": "electro"
+                },
+                "articles": [
+                    {
+                        "id": 4617328,
+                        "price": 1.55,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/4617328",
+                        "currency": "GBP"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/52/96/0724387259652_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/52/96/0724387259652_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/52/96/0724387259652_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 49433,
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France",
+                    "slug": "parlophone-france"
+                },
+                "id": "0724387259652",
+                "duration": 166,
+                "released_at": 1114120800,
+                "title": "Technologic",
+                "artist": {
+                    "picture": null,
+                    "id": 36819,
+                    "albums_count": 52,
+                    "name": "Daft Punk",
+                    "image": null,
+                    "slug": "daft-punk"
+                },
+                "qobuz_id": 4707483,
+                "popularity": 0.4,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0724354764554",
+                "genre": {
+                    "path": [
+                        64,
+                        129
+                    ],
+                    "id": 129,
+                    "slug": "dance",
+                    "color": "#5eabc1",
+                    "name": "Dance"
+                },
+                "tracks_count": 4,
+                "title": "Something About US (Love Theme From Interstella)",
+                "released_at": 1068764400,
+                "duration": 1103,
+                "articles": [
+                    {
+                        "id": 1458784,
+                        "label": "Qualité CD 16 bits",
+                        "price": 3.5,
+                        "type": "lls",
+                        "url": "/order/1458784",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/54/45/0724354764554_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/54/45/0724354764554_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/54/45/0724354764554_50.jpg"
+                },
+                "label": {
+                    "id": 49433,
+                    "slug": "parlophone-france",
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 3257593,
+                "popularity": 0.4,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 2,
+                "genre": {
+                    "id": 64,
+                    "color": "#5eabc1",
+                    "name": "Electro",
+                    "path": [
+                        64
+                    ],
+                    "slug": "electro"
+                },
+                "articles": [
+                    {
+                        "id": 4596213,
+                        "price": 3.5,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/4596213",
+                        "currency": "GBP"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/55/09/5099951980955_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/55/09/5099951980955_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/55/09/5099951980955_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 49786,
+                    "supplier_id": 5,
+                    "albums_count": 479,
+                    "name": "EMI",
+                    "slug": "emi-2"
+                },
+                "id": "5099951980955",
+                "duration": 494,
+                "released_at": 1268607600,
+                "title": "Harder Better Faster Stronger",
+                "artist": {
+                    "picture": null,
+                    "id": 36819,
+                    "albums_count": 52,
+                    "name": "Daft Punk",
+                    "image": null,
+                    "slug": "daft-punk"
+                },
+                "qobuz_id": 4685420,
+                "popularity": 0.3,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "0005008730896",
+                "genre": {
+                    "path": [
+                        64,
+                        129
+                    ],
+                    "id": 129,
+                    "slug": "dance",
+                    "color": "#5eabc1",
+                    "name": "Dance"
+                },
+                "tracks_count": 1,
+                "title": "Derezzed",
+                "released_at": 1396216800,
+                "duration": 303,
+                "articles": [
+                    {
+                        "id": 38507613,
+                        "label": "Qualité CD 16 bits",
+                        "price": 1.68,
+                        "type": "lls",
+                        "url": "/order/38507613",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/96/08/0005008730896_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/96/08/0005008730896_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/96/08/0005008730896_50.jpg"
+                },
+                "label": {
+                    "id": 1561,
+                    "slug": "walt-disney-records",
+                    "supplier_id": 1,
+                    "albums_count": 336,
+                    "name": "Walt Disney Records"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 15560293,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1425078000,
+                "streamable_at": 1425078000,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "3610153630886",
+                "genre": {
+                    "path": [
+                        64,
+                        68
+                    ],
+                    "id": 68,
+                    "slug": "house",
+                    "color": "#5eabc1",
+                    "name": "House"
+                },
+                "tracks_count": 1,
+                "title": "Get Lucky",
+                "released_at": 1377468000,
+                "duration": 241,
+                "articles": [
+                    {
+                        "id": 27293547,
+                        "label": "Qualité CD 16 bits",
+                        "price": 1.69,
+                        "type": "lls",
+                        "url": "/order/27293547",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/86/08/3610153630886_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/86/08/3610153630886_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/86/08/3610153630886_50.jpg"
+                },
+                "label": {
+                    "id": 2558,
+                    "slug": "mediterraneos-production",
+                    "supplier_id": 3,
+                    "albums_count": 67,
+                    "name": "Mediterraneos Production"
+                },
+                "artist": {
+                    "id": 1142673,
+                    "picture": null,
+                    "image": null,
+                    "slug": "crystal-gold",
+                    "albums_count": 11,
+                    "name": "Crystal Gold"
+                },
+                "qobuz_id": 11299426,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421362800,
+                "streamable_at": 1421362800,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "id": "3610153249743",
+                "genre": {
+                    "path": [
+                        1
+                    ],
+                    "id": 1,
+                    "slug": "divers",
+                    "color": "#5eabc1",
+                    "name": "Divers"
+                },
+                "tracks_count": 1,
+                "title": "Get Lucky",
+                "released_at": 1373407200,
+                "duration": 28,
+                "articles": [
+                    {
+                        "id": 21584941,
+                        "label": "Qualité CD 16 bits",
+                        "price": 1.29,
+                        "type": "lls",
+                        "url": "/order/21584941",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "GBP"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/43/97/3610153249743_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/43/97/3610153249743_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/43/97/3610153249743_50.jpg"
+                },
+                "label": {
+                    "id": 43210,
+                    "slug": "musicando-production",
+                    "supplier_id": 3,
+                    "albums_count": 42,
+                    "name": "Musicando Production"
+                },
+                "artist": {
+                    "id": 36819,
+                    "picture": null,
+                    "image": null,
+                    "slug": "daft-punk",
+                    "albums_count": 52,
+                    "name": "Daft Punk"
+                },
+                "qobuz_id": 10426691,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421362800,
+                "streamable_at": 1421362800,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 1,
+                "genre": {
+                    "id": 64,
+                    "color": "#5eabc1",
+                    "name": "Electro",
+                    "path": [
+                        64
+                    ],
+                    "slug": "electro"
+                },
+                "articles": [
+                    {
+                        "id": 14832485,
+                        "price": 1.55,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/14832485",
+                        "currency": "GBP"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/50/73/5099951127350_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/50/73/5099951127350_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/50/73/5099951127350_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 49433,
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France",
+                    "slug": "parlophone-france"
+                },
+                "id": "5099951127350",
+                "duration": 210,
+                "released_at": 1191880800,
+                "title": "Harder Better Faster Stronger",
+                "artist": {
+                    "picture": null,
+                    "id": 36819,
+                    "albums_count": 52,
+                    "name": "Daft Punk",
+                    "image": null,
+                    "slug": "daft-punk"
+                },
+                "qobuz_id": 4908886,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421276400,
+                "streamable_at": 1421276400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 4,
+                "genre": {
+                    "id": 129,
+                    "color": "#5eabc1",
+                    "name": "Dance",
+                    "path": [
+                        64,
+                        129
+                    ],
+                    "slug": "dance"
+                },
+                "articles": [
+                    {
+                        "id": 21250664,
+                        "price": 3.5,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/21250664",
+                        "currency": "GBP"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/51/51/0724389455151_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/51/51/0724389455151_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/51/51/0724389455151_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 49433,
+                    "supplier_id": 5,
+                    "albums_count": 2370,
+                    "name": "Parlophone France",
+                    "slug": "parlophone-france"
+                },
+                "id": "0724389455151",
+                "duration": 1365,
+                "released_at": 1145570400,
+                "title": "Burnin'",
+                "artist": {
+                    "picture": null,
+                    "id": 36819,
+                    "albums_count": 52,
+                    "name": "Daft Punk",
+                    "image": null,
+                    "slug": "daft-punk"
+                },
+                "qobuz_id": 10300916,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1421362800,
+                "streamable_at": 1421362800,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            }
+        ]
+    }
+}
