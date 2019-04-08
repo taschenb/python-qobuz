@@ -1,4 +1,5 @@
 from .artist import Artist
 from .album import Album
+from .track import Track
 
-__all__ = ["Artist", "Album"]
+__all__ = ["Artist", "Album", "Track"]
