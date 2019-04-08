@@ -1,0 +1,166 @@
+{
+    "query": "Thriller",
+    "artists": {
+        "limit": 2,
+        "offset": 0,
+        "total": 62042,
+        "items": []
+    },
+    "tracks": {
+        "limit": 2,
+        "offset": 0,
+        "total": 1185,
+        "items": [
+            {
+                "id": 7398,
+                "performers": "Jerry Hey, Trumpet - Jerry Hey, Flugelhorn - Michael Jackson, Vocal - Michael Jackson, Background Vocal - Michael Jackson, Performer - Greg Phillinganes, Synthesizer - Bill Reichenbach, Trombone - Larry Williams, Flute - Larry Williams, Saxophone - Rod Temperton, Composer - Rod Temperton, Lyricist - Rod Temperton, Synthesizer - Brian Banks, Synthesizer - David Williams, Guitar - Quincy Jones, Producer - Gary Grant, Trumpet - Gary Grant, Flugelhorn - Vincent Price, Speaker - ",
+                "duration": 357,
+                "title": "Thriller (Album Version)",
+                "album": {
+                    "id": "0074643811224",
+                    "genre": {
+                        "id": 127,
+                        "color": "#5eabc1",
+                        "name": "Soul/Funk/R&B",
+                        "path": [
+                            127
+                        ],
+                        "slug": "soul-funk-rap"
+                    },
+                    "tracks_count": 9,
+                    "duration": 2539,
+                    "released_at": 949273200,
+                    "title": "Thriller (Edition Studio Masters 24 bits / 176,4 kHz)",
+                    "image": {
+                        "thumbnail": "http://static.qobuz.com/images/covers/24/12/0074643811224_50.jpg",
+                        "small": "http://static.qobuz.com/images/covers/24/12/0074643811224_230.jpg",
+                        "large": "http://static.qobuz.com/images/covers/24/12/0074643811224_600.jpg"
+                    },
+                    "media_count": 1,
+                    "label": {
+                        "id": 4586,
+                        "supplier_id": 23,
+                        "albums_count": 4270,
+                        "name": "Epic",
+                        "slug": "epic"
+                    },
+                    "artist": {
+                        "picture": null,
+                        "id": 50195,
+                        "albums_count": 192,
+                        "name": "Michael Jackson",
+                        "image": null,
+                        "slug": "michael-jackson"
+                    },
+                    "qobuz_id": 7394,
+                    "popularity": 0.67672881375846,
+                    "purchasable": true,
+                    "streamable": false,
+                    "previewable": true,
+                    "sampleable": true,
+                    "downloadable": true,
+                    "displayable": true,
+                    "purchasable_at": 1430863200,
+                    "streamable_at": 1430863200,
+                    "maximum_sampling_rate": 176.4,
+                    "maximum_bit_depth": 24,
+                    "hires": true
+                },
+                "performer": {
+                    "id": 50195,
+                    "name": "Michael Jackson"
+                },
+                "copyright": "(P) 1982 MJJ Productions Inc. (P) 1982 MJJ Productions Inc.",
+                "media_number": 1,
+                "track_number": 4,
+                "version": "Album Version",
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1430863200,
+                "streamable_at": 1430863200,
+                "maximum_sampling_rate": 176.4,
+                "maximum_bit_depth": 24,
+                "hires": true
+            },
+            {
+                "id": 4838154,
+                "title": "Thriller (Single Version)",
+                "duration": 312,
+                "performers": "Michael Jackson, Performer\r - Michael Jackson, Vocal\r - Quincy Jones, Producer\r - Rod Temperton, Composer\r - Rod Temperton, Lyricist\r",
+                "album": {
+                    "tracks_count": 38,
+                    "genre": {
+                        "path": [
+                            127
+                        ],
+                        "id": 127,
+                        "slug": "soul-funk-rap",
+                        "color": "#5eabc1",
+                        "name": "Soul/Funk/R&B"
+                    },
+                    "id": "0827969428726",
+                    "title": "The Essential Michael Jackson",
+                    "released_at": 1121637600,
+                    "duration": 9445,
+                    "media_count": 2,
+                    "image": {
+                        "small": "http://static.qobuz.com/images/covers/26/87/0827969428726_230.jpg",
+                        "large": "http://static.qobuz.com/images/covers/26/87/0827969428726_600.jpg",
+                        "thumbnail": "http://static.qobuz.com/images/covers/26/87/0827969428726_50.jpg"
+                    },
+                    "label": {
+                        "id": 4627,
+                        "slug": "epic-legacy",
+                        "supplier_id": 23,
+                        "albums_count": 699,
+                        "name": "Epic - Legacy"
+                    },
+                    "artist": {
+                        "id": 50195,
+                        "picture": null,
+                        "image": null,
+                        "slug": "michael-jackson",
+                        "albums_count": 192,
+                        "name": "Michael Jackson"
+                    },
+                    "qobuz_id": 4838133,
+                    "popularity": 0.67766095217208,
+                    "purchasable": true,
+                    "streamable": false,
+                    "previewable": true,
+                    "sampleable": true,
+                    "downloadable": true,
+                    "displayable": true,
+                    "purchasable_at": 1429912800,
+                    "streamable_at": 1429221600,
+                    "maximum_sampling_rate": 96,
+                    "maximum_bit_depth": 24,
+                    "hires": true
+                },
+                "performer": {
+                    "id": 50195,
+                    "name": "Michael Jackson"
+                },
+                "media_number": 1,
+                "copyright": "(P) 1987 MJJ Productions Inc. (P) 1987 MJJ Productions Inc.",
+                "track_number": 21,
+                "version": "Single Version",
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1429221600,
+                "streamable_at": 1429221600,
+                "maximum_sampling_rate": 96,
+                "maximum_bit_depth": 24,
+                "hires": true
+            }
+        ]
+    }
+}
