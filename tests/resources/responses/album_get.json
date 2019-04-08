@@ -1,0 +1,629 @@
+{
+    "tracks_count": 13,
+    "genre": {
+        "id": 64,
+        "color": "#5eabc1",
+        "name": "Electro",
+        "path": [
+            64
+        ],
+        "slug": "electro"
+    },
+    "product_sales_factors_weekly": 4.5,
+    "id": "0886443927087",
+    "goodies": [
+        {
+            "id": 25909,
+            "original_url": "https://static.qobuz.com/goodies/90/000025909.pdf",
+            "description": "Daft Punk - Random Access Memories (Édition Studio Masters)",
+            "name": "Livret numérique",
+            "file_format_id": 21,
+            "url": "https://static.qobuz.com/goodies/90/000025909.pdf"
+        }
+    ],
+    "composer": {
+        "picture": null,
+        "id": 573076,
+        "albums_count": 583621,
+        "name": "Various Composers",
+        "image": null,
+        "slug": "various-composers"
+    },
+    "title": "Random Access Memories (Hi-Res Version)",
+    "parental_warning": false,
+    "description": "Virage à 180° pour Thomas Bangalter et Guy-Manuel de Homem-Christo ! Avec leur quatrième album, les Daft semblent boucler l'ère de la musique électronique faite sur un simple laptop dans une chambre de 10m² pour revenir à la bonne vieille méthode à l'ancienne. Célébration du beau son et hymne grandiose au mythe du studio d'enregistrement perçu comme une Mecque de la musique, ce <em>Random Access Memories</em> semble avoir été conçu à la fin des années 70, avec les moyens et l'hédonisme de cette époque où régnaient notamment le disco et le rock californien. Les influences on ne peut plus éclectiques s'entrecroisent comme par magie sur ce nouveau Daft : Chic, Steely Dan, Alan Parsons Project, Todd Rundgren, Pink Floyd, etc. Pour épauler le tandem francilien dans sa démarche rétro-futuriste, un impressionnant casting de stars, lui aussi éclectique, a fait le déplacement : du pape de l'italo-disco Giorgio Moroder (dont la B.O. du film <em>Midnight Express</em> est entrée dans la légende) à Nile Rodgers (cerveau guitariste du groupe Chic) en passant par Paul Williams (Monsieur <em>Phantom of the Paradise</em> en personne !), Pharrell Williams, Todd Edwards, DJ Falcon, Gonzales, Panda Bear d'Animal Collective et Julian Casablancas des Strokes, difficile de rivaliser. Au final, <em>Random Access Memories</em> ne lorgne pas uniquement dans le rétroviseur car le travail des deux musiciens français les plus populaires à l'étranger est bel et bien ancré dans son temps. Entre disco-futuriste et pop ovni, le résultat est impressionnant. © MD/Qobuz",
+    "catchline": "",
+    "created_at": 1368156659,
+    "genres_list": [
+        "Electro"
+    ],
+    "artist": {
+        "picture": null,
+        "id": 36819,
+        "albums_count": 98,
+        "name": "Daft Punk",
+        "image": null,
+        "slug": "daft-punk"
+    },
+    "product_sales_factors_monthly": 27,
+    "popularity": 0,
+    "maximum_channel_count": 2,
+    "articles": [
+        {
+            "id": 16250176,
+            "price": 11.49,
+            "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+            "label": "Qualité CD 16 bits",
+            "type": "lls",
+            "url": "/order/16250176",
+            "currency": "EUR"
+        },
+        {
+            "id": 16250177,
+            "price": 16.99,
+            "description": "Lossless 24 bits 88.2 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+            "label": "Hi-Res",
+            "type": "smr",
+            "url": "/order/16250177",
+            "currency": "EUR"
+        },
+        {
+            "id": 49014850,
+            "price": 8.99,
+            "description": "Lossless 24 bits 88.2 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+            "label": "Hi-Res avec Qobuz Sublime",
+            "type": "shp",
+            "url": "/order/49014850",
+            "currency": "EUR"
+        }
+    ],
+    "image": {
+        "thumbnail": "https://static.qobuz.com/images/covers/87/70/0886443927087_50.jpg",
+        "back": null,
+        "small": "https://static.qobuz.com/images/covers/87/70/0886443927087_230.jpg",
+        "large": "https://static.qobuz.com/images/covers/87/70/0886443927087_600.jpg"
+    },
+    "media_count": 1,
+    "product_type": "album",
+    "label": {
+        "id": 4592,
+        "supplier_id": 23,
+        "albums_count": 22025,
+        "name": "Columbia",
+        "slug": "columbia"
+    },
+    "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+    "maximum_sampling_rate": 88.2,
+    "product_url": "/fr-fr/album/random-access-memories-hi-res-version-daft-punk/0886443927087",
+    "upc": "0886443927087",
+    "url": "http://www.qobuz.com/fr-fr/album/random-access-memories-hi-res-version-daft-punk/0886443927087",
+    "maximum_bit_depth": 24,
+    "duration": 4470,
+    "released_at": 1368741600,
+    "maximum_technical_specifications": "24 bits / 88.2 kHz - Stereo",
+    "awards": [
+        {
+            "publication_name": "Télérama",
+            "award_slug": "tel4f",
+            "publication_id": "8",
+            "publication_slug": "telerama",
+            "name": "4F de Télérama",
+            "slug": "telerama",
+            "award_id": "12",
+            "awarded_at": 1367359200
+        },
+        {
+            "publication_name": "Rock and Folk",
+            "award_slug": "5etrockfolk",
+            "publication_id": "4",
+            "publication_slug": "rock-and-folk",
+            "name": "5 étoiles Rock and Folk",
+            "slug": "rock-and-folk",
+            "award_id": "53",
+            "awarded_at": 1370037600
+        },
+        {
+            "publication_name": "Qobuz",
+            "award_slug": "discotheque_ideale",
+            "publication_id": "2",
+            "publication_slug": "qobuz",
+            "name": "Discothèque Idéale Qobuz",
+            "slug": "qobuz",
+            "award_id": "70",
+            "awarded_at": 1388530800
+        },
+        {
+            "publication_name": "Pitchfork",
+            "award_slug": "pitchfork",
+            "publication_id": "16",
+            "publication_slug": "pitchfork",
+            "name": "Pitchfork: Best New Music",
+            "slug": "pitchfork",
+            "award_id": "74",
+            "awarded_at": 1367359200
+        },
+        {
+            "publication_name": "Qobuz",
+            "award_slug": "prisedeson_exception",
+            "publication_id": "2",
+            "publication_slug": "qobuz",
+            "name": "Prise de son d'exception",
+            "slug": "qobuz",
+            "award_id": "89",
+            "awarded_at": 1388530800
+        },
+        {
+            "publication_name": "Qobuz spécial",
+            "award_slug": "smr-qualite-garantie",
+            "publication_id": "59",
+            "publication_slug": "qobuz-special",
+            "name": "Hi-Res Audio",
+            "slug": "qobuz-special",
+            "award_id": "96",
+            "awarded_at": 1388530800
+        }
+    ],
+    "slug": "random-access-memories-hi-res-version-daft-punk",
+    "relative_url": "/album/random-access-memories-hi-res-version-daft-punk/0886443927087",
+    "qobuz_id": 9140023,
+    "product_sales_factors_yearly": 326.7,
+    "purchasable": true,
+    "streamable": false,
+    "previewable": true,
+    "sampleable": true,
+    "downloadable": true,
+    "displayable": true,
+    "purchasable_at": 1547074800,
+    "streamable_at": 1547074800,
+    "hires": true,
+    "hires_streamable": false,
+    "tracks": {
+        "offset": 0,
+        "limit": 1200,
+        "total": 13,
+        "items": [
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300101",
+                "maximum_sampling_rate": 88.2,
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "track_number": 1,
+                "version": null,
+                "id": 9140024,
+                "composer": {
+                    "id": 17965,
+                    "name": "Nile Rodgers"
+                },
+                "maximum_bit_depth": 24,
+                "title": "Give Life Back to Music",
+                "duration": 275,
+                "performers": "Daft Punk, Performer\r - Daft Punk, Synthesizer\r - Daft Punk, Vocal\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Paul Jackson Jr., Composer\r - Paul Jackson Jr., Guitar\r - Paul Jackson Jr., Lyricist\r - Nile Rodgers, Composer\r - Nile Rodgers, Guitar\r - Nile Rodgers, Lyricist\r - Greg Liesz, Steel Guitar\r - Chris Caswell, Keyboards\r - Chris Caswell, Other\r - Chilly Gonzales, Keyboards\r - Nathan East, Bass\r - John \"JR\" Robinson, Drums\r - Quinn, Percussion\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "parental_warning": false,
+                "performer": {
+                    "id": 36819,
+                    "name": "Daft Punk"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300102",
+                "maximum_sampling_rate": 88.2,
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "track_number": 2,
+                "version": null,
+                "id": 9140025,
+                "composer": {
+                    "id": 48212,
+                    "name": "Thomas Bangalter"
+                },
+                "maximum_bit_depth": 24,
+                "title": "The Game of Love",
+                "duration": 322,
+                "performers": "Daft Punk, Performer\r - Daft Punk, Synthesizer\r - Daft Punk, Vocal\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Paul Jackson Jr., Guitar\r - Greg Liesz, Steel Guitar\r - Chris Caswell, Keyboards\r - Chris Caswell, Other\r - Nathan East, Bass\r - John \"JR\" Robinson, Drums\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "parental_warning": false,
+                "performer": {
+                    "id": 36819,
+                    "name": "Daft Punk"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300103",
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "maximum_sampling_rate": 88.2,
+                "track_number": 3,
+                "version": null,
+                "id": 9140026,
+                "maximum_bit_depth": 24,
+                "composer": {
+                    "id": 15053,
+                    "name": "Giorgio Moroder"
+                },
+                "performers": "Daft Punk, Keyboards\r - Daft Punk, Performer\r - Daft Punk, Synthesizer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Giorgio Moroder, Composer\r - Giorgio Moroder, Vocal\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Paul Jackson Jr., Guitar\r - Greg Liesz, Steel Guitar\r - Chris Caswell, Keyboards\r - Chris Caswell, Other\r - Nathan East, Bass\r - James Genus, Bass\r - John \"JR\" Robinson, Drums\r - Omar Hakim, Drums\r - Quinn, Percussion\r - Douglas Walter, Conductor\r - Joseph Solido, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Guillaume Le Braz, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "duration": 544,
+                "title": "Giorgio by Moroder",
+                "parental_warning": false,
+                "performer": {
+                    "id": 36819,
+                    "name": "Daft Punk"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300104",
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "maximum_sampling_rate": 88.2,
+                "track_number": 4,
+                "version": null,
+                "id": 9140027,
+                "maximum_bit_depth": 24,
+                "composer": {
+                    "id": 48212,
+                    "name": "Thomas Bangalter"
+                },
+                "performers": "Daft Punk, Keyboards\r - Daft Punk, Performer\r - Daft Punk, Vocal\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Chilly Gonzales, Piano\r - Jason \"Chilly Gonzales\" Beck, Composer\r - Jason \"Chilly Gonzales\" Beck, Lyricist\r - Chris Caswell, Keyboards\r - Chris Caswell, Other\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Nathan East, Bass\r - John \"JR\" Robinson, Drums\r - Quinn, Percussion\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "duration": 228,
+                "title": "Within",
+                "parental_warning": false,
+                "performer": {
+                    "id": 36819,
+                    "name": "Daft Punk"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300105",
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "maximum_sampling_rate": 88.2,
+                "track_number": 5,
+                "version": null,
+                "id": 9140028,
+                "maximum_bit_depth": 24,
+                "composer": {
+                    "id": 48212,
+                    "name": "Thomas Bangalter"
+                },
+                "performers": "Daft Punk feat. Julian Casablancas, Performer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Julian Casablancas, Co-Producer\r - Julian Casablancas, Composer\r - Julian Casablancas, Guitar\r - Julian Casablancas, Lyricist\r - Julian Casablancas, Vocal\r - Daft Punk, Guitar\r - Daft Punk, Keyboards\r - Daft Punk, Synthesizer\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Nathan East, Bass\r - John \"JR\" Robinson, Drums\r - Quinn, Percussion\r - Chris Caswell, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "duration": 337,
+                "title": "Instant Crush",
+                "parental_warning": false,
+                "performer": {
+                    "id": 1120651,
+                    "name": "Daft Punk feat. Julian Casablancas"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300106",
+                "maximum_sampling_rate": 88.2,
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "track_number": 6,
+                "version": null,
+                "id": 9140029,
+                "composer": {
+                    "id": 17965,
+                    "name": "Nile Rodgers"
+                },
+                "maximum_bit_depth": 24,
+                "title": "Lose Yourself to Dance",
+                "duration": 353,
+                "performers": "Daft Punk feat. Pharrell Williams, Performer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Pharrell Williams, Composer\r - Pharrell Williams, Lyricist\r - Pharrell Williams, Vocal\r - Daft Punk, Vocal\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Nile Rodgers, Composer\r - Nile Rodgers, Guitar\r - Nile Rodgers, Lyricist\r - Nathan East, Bass\r - John \"JR\" Robinson, Drums\r - Chris Caswell, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "parental_warning": false,
+                "performer": {
+                    "id": 1120652,
+                    "name": "Daft Punk feat. Pharrell Williams"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300107",
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "maximum_sampling_rate": 88.2,
+                "track_number": 7,
+                "version": null,
+                "id": 9140030,
+                "maximum_bit_depth": 24,
+                "composer": {
+                    "id": 22070,
+                    "name": "Paul Williams"
+                },
+                "performers": "Daft Punk feat. Paul Williams, Performer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Paul Williams, Composer\r - Paul Williams, Lyricist\r - Paul Williams, Vocal\r - Chris Caswell, Composer\r - Chris Caswell, Keyboards\r - Chris Caswell, Lyricist\r - Chris Caswell, Other\r - Daft Punk, Synthesizer\r - Daft Punk, Vocal\r - Paul Jackson Jr., Guitar\r - Greg Liesz, Steel Guitar\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Thomas Bloch, Other\r - James Genus, Bass\r - Omar Hakim, Drums\r - Quinn, Drums\r - Douglas Walter, Conductor\r - Joseph Solido, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "duration": 498,
+                "title": "Touch",
+                "parental_warning": false,
+                "performer": {
+                    "id": 1120653,
+                    "name": "Daft Punk feat. Paul Williams"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300108",
+                "maximum_sampling_rate": 88.2,
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "track_number": 8,
+                "version": null,
+                "id": 9140031,
+                "composer": {
+                    "id": 17965,
+                    "name": "Nile Rodgers"
+                },
+                "maximum_bit_depth": 24,
+                "title": "Get Lucky",
+                "duration": 369,
+                "performers": "Daft Punk feat. Pharrell Williams, Performer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Pharrell Williams, Composer\r - Pharrell Williams, Lyricist\r - Pharrell Williams, Vocal\r - Daft Punk, Synthesizer\r - Daft Punk, Vocal\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Nile Rodgers, Composer\r - Nile Rodgers, Guitar\r - Nile Rodgers, Lyricist\r - Paul Jackson Jr., Guitar\r - Chris Caswell, Keyboards\r - Chris Caswell, Other\r - Nathan East, Bass\r - Omar Hakim, Drums\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "parental_warning": false,
+                "performer": {
+                    "id": 1120652,
+                    "name": "Daft Punk feat. Pharrell Williams"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300109",
+                "maximum_sampling_rate": 88.2,
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "track_number": 9,
+                "version": null,
+                "id": 9140032,
+                "composer": {
+                    "id": 22070,
+                    "name": "Paul Williams"
+                },
+                "maximum_bit_depth": 24,
+                "title": "Beyond",
+                "duration": 290,
+                "performers": "Daft Punk, Performer\r - Daft Punk, Synthesizer\r - Daft Punk, Vocal\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Chris Caswell, Composer\r - Chris Caswell, Keyboards\r - Chris Caswell, Lyricist\r - Chris Caswell, Other\r - Paul Jackson Jr., Guitar\r - Greg Liesz, Steel Guitar\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - James Genus, Bass\r - Paul Williams, Composer\r - Paul Williams, Lyricist\r - Omar Hakim, Drums\r - Douglas Walter, Conductor\r - Joseph Solido, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "parental_warning": false,
+                "performer": {
+                    "id": 36819,
+                    "name": "Daft Punk"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300110",
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "maximum_sampling_rate": 88.2,
+                "track_number": 10,
+                "version": null,
+                "id": 9140033,
+                "maximum_bit_depth": 24,
+                "composer": {
+                    "id": 48212,
+                    "name": "Thomas Bangalter"
+                },
+                "performers": "Daft Punk, Performer\r - Daft Punk, Synthesizer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Paul Jackson Jr., Guitar\r - Chris Caswell, Keyboards\r - Chris Caswell, Other\r - Greg Liesz, Steel Guitar\r - Thomas Bloch, Other\r - James Genus, Bass\r - Omar Hakim, Drums\r - Quinn, Percussion\r - Douglas Walter, Conductor\r - Joseph Solido, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "duration": 341,
+                "title": "Motherboard",
+                "parental_warning": false,
+                "performer": {
+                    "id": 36819,
+                    "name": "Daft Punk"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300111",
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "maximum_sampling_rate": 88.2,
+                "track_number": 11,
+                "version": null,
+                "id": 9140034,
+                "maximum_bit_depth": 24,
+                "composer": {
+                    "id": 48212,
+                    "name": "Thomas Bangalter"
+                },
+                "performers": "Daft Punk feat. Todd Edwards, Performer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Todd Edwards, Co-Producer\r - Todd Edwards, Vocal\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Paul Jackson Jr., Guitar\r - Greg Liesz, Steel Guitar\r - Chris Caswell, Keyboards\r - Chris Caswell, Other\r - Todd Imperatrice, Composer\r - Todd Imperatrice, Lyricist\r - Daft Punk, Keyboards\r - Daft Punk, Synthesizer\r - Nathan East, Bass\r - James Genus, Bass\r - Omar Hakim, Drums\r - Quinn, Percussion\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "duration": 279,
+                "title": "Fragments of Time",
+                "parental_warning": false,
+                "performer": {
+                    "id": 1120654,
+                    "name": "Daft Punk feat. Todd Edwards"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300112",
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "maximum_sampling_rate": 88.2,
+                "track_number": 12,
+                "version": null,
+                "id": 9140035,
+                "maximum_bit_depth": 24,
+                "composer": {
+                    "id": 48212,
+                    "name": "Thomas Bangalter"
+                },
+                "performers": "Daft Punk feat. Panda Bear, Performer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Lyricist\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Panda Bear, Vocal\r - Daft Punk, Synthesizer\r - Daft Punk, Vocal\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Lyricist\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - Noah Lennox, Composer\r - Noah Lennox, Lyricist\r - Chris Caswell, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "duration": 251,
+                "title": "Doin' it Right",
+                "parental_warning": false,
+                "performer": {
+                    "id": 1120655,
+                    "name": "Daft Punk feat. Panda Bear"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            },
+            {
+                "work": null,
+                "maximum_channel_count": 2,
+                "isrc": "USQX91300113",
+                "maximum_sampling_rate": 88.2,
+                "copyright": "(P) 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+                "track_number": 13,
+                "version": null,
+                "id": 9140036,
+                "composer": {
+                    "id": 48212,
+                    "name": "Thomas Bangalter"
+                },
+                "maximum_bit_depth": 24,
+                "title": "Contact",
+                "duration": 383,
+                "performers": "Daft Punk, Performer\r - Daft Punk, Synthesizer\r - Thomas Bangalter, Composer\r - Thomas Bangalter, Other\r - Thomas Bangalter, Producer\r - Guy-Manuel de Homem-Christo, Composer\r - Guy-Manuel de Homem-Christo, Other\r - Guy-Manuel de Homem-Christo, Producer\r - DJ Falcon, Co-Producer\r - DJ Falcon, Synthesizer\r - Stephane Queme, Composer\r - Garth Porter, Composer\r - James Genus, Bass\r - Omar Hakim, Drums\r - Tony Mitchell, Composer\r - Daryl Braithwaite, Composer\r - Chris Caswell, Other\r - Peter Franco, Assistant Engineer\r - Peter Franco, Recording Engineer\r - Mick Guzauski, Mixing Engineer\r - Mick Guzauski, Recording Engineer\r - Florian Lagatta, Recording Engineer\r - Daniel Lerner, Engineer\r - Seth Waldmann, Assistant Engineer\r - Seth Waldmann, Misc. Prod.\r - Cory Brice, Assistant Engineer\r - Nicolás Essig, Assistant Engineer\r - Eric Eylands, Assistant Engineer\r - Derek Karlquist, Assistant Engineer\r - Miguel Lara, Assistant Engineer\r - Mike Larson, Assistant Engineer\r - Kevin Mills, Assistant Engineer\r - Charlie Pakkari, Assistant Engineer\r - Bill Rahko, Assistant Engineer\r - Kyle Stevens, Assistant Engineer\r - Doug Tyo, Assistant Engineer\r - Eric Weaver, Assistant Engineer\r - Alana Da Fonseca, Recording Engineer\r - Phil Joly, Recording Engineer\r - Jean-Pierre Janiaud, Misc. Prod.\r - Bob Ludwig, Mastering Engineer\r - Chab, Mastering Engineer\r",
+                "parental_warning": false,
+                "performer": {
+                    "id": 36819,
+                    "name": "Daft Punk"
+                },
+                "media_number": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1547074800,
+                "streamable_at": 1547074800,
+                "hires": true,
+                "hires_streamable": false
+            }
+        ]
+    }
+}
