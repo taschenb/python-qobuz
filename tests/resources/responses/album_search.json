@@ -1,0 +1,151 @@
+{
+    "query": "John Cage",
+    "artists": {
+        "limit": 2,
+        "offset": 0,
+        "total": 5358,
+        "items": []
+    },
+    "albums": {
+        "limit": 2,
+        "offset": 0,
+        "total": 386,
+        "items": [
+            {
+                "id": "0886444229425",
+                "genre": {
+                    "path": [
+                        94,
+                        151,
+                        165
+                    ],
+                    "id": 165,
+                    "slug": "italie",
+                    "color": "#5eabc1",
+                    "name": "Italie"
+                },
+                "tracks_count": 5,
+                "title": "John Cage",
+                "released_at": 1382914800,
+                "duration": 2255,
+                "articles": [
+                    {
+                        "id": 29495703,
+                        "label": "Qualité CD 16 bits",
+                        "price": 9.09,
+                        "type": "lls",
+                        "url": "/order/29495703",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "EUR"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/25/94/0886444229425_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/25/94/0886444229425_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/25/94/0886444229425_50.jpg"
+                },
+                "label": {
+                    "id": 58125,
+                    "slug": "cramps-records-1",
+                    "supplier_id": 23,
+                    "albums_count": 20,
+                    "name": "Cramps Records"
+                },
+                "artist": {
+                    "id": 107,
+                    "picture": null,
+                    "image": null,
+                    "slug": "john-cage",
+                    "albums_count": 144,
+                    "name": "John Cage"
+                },
+                "qobuz_id": 12161108,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1422572400,
+                "streamable_at": 1422572400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 21,
+                "genre": {
+                    "id": 10,
+                    "color": "#5eabc1",
+                    "name": "Classique",
+                    "path": [
+                        10
+                    ],
+                    "slug": "classique"
+                },
+                "articles": [
+                    {
+                        "id": 5991325,
+                        "price": 13.99,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/5991325",
+                        "currency": "EUR"
+                    },
+                    {
+                        "id": 6045520,
+                        "price": 20,
+                        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Hi-Res",
+                        "type": "smr",
+                        "url": "/order/6045520",
+                        "currency": "EUR"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/01/52/0002894765201_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/01/52/0002894765201_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/01/52/0002894765201_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 1171,
+                    "supplier_id": 1,
+                    "albums_count": 327,
+                    "name": "ECM New Series",
+                    "slug": "ecm-new"
+                },
+                "id": "0002894765201",
+                "duration": 4284,
+                "released_at": 1325372400,
+                "title": "John Cage : As It Is  (Édition Studio Master avec livret PDF)",
+                "artist": {
+                    "picture": null,
+                    "id": 643844,
+                    "albums_count": 2,
+                    "name": "Natalia Pschenitschnikova",
+                    "image": null,
+                    "slug": "natalia-pschenitschnikova"
+                },
+                "qobuz_id": 6274355,
+                "popularity": 1,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1428357600,
+                "streamable_at": null,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 24,
+                "hires": true
+            }
+        ]
+    }
+}
