@@ -51,6 +51,25 @@ class Playlist(object):
         )
 
         return [Track(t) for t in playlist["tracks"]["items"]]
+
+    def _split_into_chunks(self, iterable, chunk_size):
+        """Split a iterable into smaller chunks.
+
+        Parameters
+        ----------
+        iterable
+            Iterable to be split
+        chunk_size: int
+            Max number of elements per chunk
+        """
+        splitted = list(zip(*[iter(iterable)] * chunk_size))
+
+        # Include the last chunk, which length was smaller than chunk_size
+        num_extra = len(iterable) % chunk_size
+        if num_extra:
+            splitted.append(iterable[-num_extra:])
+
+        return splitted
     @classmethod
     def from_id(cls, playlist_id):
         playlist = api.request("playlist/get", playlist_id=playlist_id)
