@@ -26,3 +26,9 @@ class Playlist(object):
             and self.name == other.name
             and self.description == other.description
         )
+
+    @classmethod
+    def from_id(cls, playlist_id):
+        playlist = api.request("playlist/get", playlist_id=playlist_id)
+
+        return cls(playlist)
