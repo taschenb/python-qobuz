@@ -27,5 +27,8 @@ with open("tests/resources/responses/track_search.json") as json_data:
 with open("tests/resources/responses/playlist_get_tracks.json") as json_data:
     playlist_get_tracks_json = json.load(json_data)
 
+with open("tests/resources/responses/playlist_add_tracks.json") as json_data:
+    playlist_add_tracks_json = json.load(json_data)
+
 with open("tests/resources/responses/playlist_search.json") as json_data:
     playlist_search_json = json.load(json_data)

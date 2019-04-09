@@ -1,0 +1,16 @@
+{
+    "id": 923460,
+    "name": "testAPI",
+    "description": "",
+    "tracks_count": 5,
+    "users_count": 0,
+    "duration": 1097,
+    "created_at": 1431524186,
+    "updated_at": 1431524445,
+    "is_public": true,
+    "is_collaborative": false,
+    "owner": {
+        "id": 178905,
+        "name": "myLogin"
+    }
+}
