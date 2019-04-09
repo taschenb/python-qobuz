@@ -24,5 +24,8 @@ with open("tests/resources/responses/user_fav_get_albums.json") as json_data:
 with open("tests/resources/responses/track_search.json") as json_data:
     track_search_json = json.load(json_data)
 
+with open("tests/resources/responses/playlist_get_tracks.json") as json_data:
+    playlist_get_tracks_json = json.load(json_data)
+
 with open("tests/resources/responses/playlist_search.json") as json_data:
     playlist_search_json = json.load(json_data)

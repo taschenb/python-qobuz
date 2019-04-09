@@ -1,0 +1,250 @@
+{
+    "tracks_count": 93,
+    "genres": [
+        {
+            "id": 113,
+            "percent": 45.16,
+            "color": "#5eabc1",
+            "name": "Alternatif et Indé",
+            "path": [
+                112,
+                119,
+                113
+            ],
+            "slug": "alternatif-et-inde"
+        },
+        {
+            "id": 133,
+            "percent": 16.13,
+            "color": "#5eabc1",
+            "name": "Rap",
+            "path": [
+                133
+            ],
+            "slug": "rap-hip-hop"
+        },
+        {
+            "id": 64,
+            "percent": 12.9,
+            "color": "#5eabc1",
+            "name": "Electro",
+            "path": [
+                64
+            ],
+            "slug": "electro"
+        },
+        {
+            "id": 117,
+            "percent": 7.53,
+            "color": "#5eabc1",
+            "name": "Pop",
+            "path": [
+                112,
+                117
+            ],
+            "slug": "pop"
+        }
+    ],
+    "images150": [
+        "http://static.qobuz.com/images/covers/24/55/0886443325524_150.jpg",
+        "http://static.qobuz.com/images/covers/78/22/5414939372278_150.jpg",
+        "http://static.qobuz.com/images/covers/56/51/0886443735156_150.jpg",
+        "http://static.qobuz.com/images/covers/96/46/0884501854696_150.jpg"
+    ],
+    "is_collaborative": false,
+    "images300": [
+        "http://static.qobuz.com/images/covers/24/55/0886443325524_300.jpg",
+        "http://static.qobuz.com/images/covers/78/22/5414939372278_300.jpg",
+        "http://static.qobuz.com/images/covers/56/51/0886443735156_300.jpg",
+        "http://static.qobuz.com/images/covers/96/46/0884501854696_300.jpg"
+    ],
+    "users_count": 187,
+    "id": 49806,
+    "duration": 23498,
+    "updated_at": 1429899574,
+    "is_public": true,
+    "description": "",
+    "name": "Electro/Rock - Best of 2013",
+    "owner": {
+        "id": 12345,
+        "name": "loris"
+    },
+    "images": [
+        "http://static.qobuz.com/images/covers/24/55/0886443325524_50.jpg",
+        "http://static.qobuz.com/images/covers/78/22/5414939372278_50.jpg",
+        "http://static.qobuz.com/images/covers/56/51/0886443735156_50.jpg",
+        "http://static.qobuz.com/images/covers/96/46/0884501854696_50.jpg"
+    ],
+    "created_at": 1318098968,
+    "tracks": {
+        "offset": 0,
+        "limit": 2,
+        "total": 93,
+        "items": [
+            {
+                "id": 7343778,
+                "performers": "A$AP Rocky featuring Drake, 2 Chainz & Kendrick Lamar, Performer\r - Rakim Mayers, Composer\r - Rakim Mayers, Lyricist\r - Noah Shebib, Composer\r - Noah Shebib, Lyricist\r - Noah Shebib, Performer\r - Noah Shebib, Producer\r - Noah Shebib, Recording Engineer\r - S. Garrett, Composer\r - S. Garrett, Lyricist\r - Kyauna Clarke, Background Vocal\r - Aubrey Graham, Composer\r - Aubrey Graham, Lyricist\r - Tauheed Epps, Composer\r - Tauheed Epps, Lyricist\r - C. Papi, Producer\r - Kendrick Lamar, Composer\r - Kendrick Lamar, Lyricist\r - Luke Leveille, Assistant Engineer\r - Noel Cadastre, Assistant Engineer\r - Hector Delgado, Recording Engineer\r - Jack \"SUTHERNFOLK\" Brown, Recording Engineer\r - Finis \"KY\" White, Recording Engineer\r - Derek Ali, Recording Engineer\r - Noel Campbell, Mixing Engineer\r",
+                "duration": 233,
+                "title": "F**kin' Problems",
+                "album": {
+                    "id": "0886443325524",
+                    "genre": {
+                        "id": 133,
+                        "color": "#5eabc1",
+                        "name": "Rap",
+                        "path": [
+                            133
+                        ],
+                        "slug": "rap-hip-hop"
+                    },
+                    "tracks_count": 12,
+                    "duration": 2951,
+                    "released_at": 1357858800,
+                    "title": "LONG.LIVE.A$AP",
+                    "image": {
+                        "thumbnail": "http://static.qobuz.com/images/covers/24/55/0886443325524_50.jpg",
+                        "small": "http://static.qobuz.com/images/covers/24/55/0886443325524_230.jpg",
+                        "large": "http://static.qobuz.com/images/covers/24/55/0886443325524_600.jpg"
+                    },
+                    "media_count": 1,
+                    "label": {
+                        "id": 21834,
+                        "supplier_id": 23,
+                        "albums_count": 11,
+                        "name": "A$AP Worldwide - Polo Grounds Music - RCA Records",
+                        "slug": "a-ap-worldwide-polo-grounds-music-rca-records"
+                    },
+                    "artist": {
+                        "picture": null,
+                        "id": 694435,
+                        "albums_count": 15,
+                        "name": "A$AP Rocky",
+                        "image": null,
+                        "slug": "a-ap-rocky"
+                    },
+                    "qobuz_id": 7343771,
+                    "popularity": 0.261971661943,
+                    "purchasable": true,
+                    "streamable": false,
+                    "previewable": true,
+                    "sampleable": true,
+                    "downloadable": true,
+                    "displayable": true,
+                    "purchasable_at": 1430863200,
+                    "streamable_at": 1430863200,
+                    "maximum_sampling_rate": 44.1,
+                    "maximum_bit_depth": 16,
+                    "hires": false
+                },
+                "performer": {
+                    "id": 937265,
+                    "name": "A$AP Rocky featuring Drake"
+                },
+                "copyright": "(P) 2012 RCA Records, a division of Sony Music Entertainment (P) 2012 RCA Records, a division of Sony Music Entertainment",
+                "media_number": 1,
+                "track_number": 7,
+                "version": null,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1430863200,
+                "streamable_at": 1430863200,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false,
+                "position": 1,
+                "created_at": 1371573597,
+                "playlist_track_id": 18852604
+            },
+            {
+                "id": 7454606,
+                "title": "Wraith",
+                "duration": 191,
+                "performers": "Peace, Performer\r - Harrison Koisser, Composer\r - Harrison Koisser, Guitar\r - Harrison Koisser, Lyricist\r - Harrison Koisser, Vocal\r - Douglas Castle, Guitar\r - Samuel Koisser, Background Vocal\r - Samuel Koisser, Bass Guitar\r - Dominic Boyce, Background Vocal\r - Dominic Boyce, Drums\r - Jim Abbiss, Producer\r - Barny, Mixing Engineer\r - Ewan Davies, Engineer\r - Mazen Murad, Mastering Engineer\r",
+                "album": {
+                    "id": "0886443735156",
+                    "genre": {
+                        "path": [
+                            112,
+                            119,
+                            113
+                        ],
+                        "id": 113,
+                        "slug": "alternatif-et-inde",
+                        "color": "#5eabc1",
+                        "name": "Alternatif et Indé"
+                    },
+                    "tracks_count": 1,
+                    "duration": 191,
+                    "released_at": 1357858800,
+                    "title": "Wraith",
+                    "image": {
+                        "small": "http://static.qobuz.com/images/covers/56/51/0886443735156_230.jpg",
+                        "large": "http://static.qobuz.com/images/covers/56/51/0886443735156_600.jpg",
+                        "thumbnail": "http://static.qobuz.com/images/covers/56/51/0886443735156_50.jpg"
+                    },
+                    "media_count": 1,
+                    "label": {
+                        "id": 4592,
+                        "slug": "columbia",
+                        "supplier_id": 23,
+                        "albums_count": 13472,
+                        "name": "Columbia"
+                    },
+                    "artist": {
+                        "id": 108478,
+                        "picture": null,
+                        "image": {
+                            "mega": "http://userserve-ak.last.fm/serve/500/98624579/Peace+PNG.png",
+                            "small": "http://userserve-ak.last.fm/serve/34s/98624579.png",
+                            "medium": "http://userserve-ak.last.fm/serve/64s/98624579.png",
+                            "large": "http://userserve-ak.last.fm/serve/126s/98624579.png",
+                            "extralarge": "http://userserve-ak.last.fm/serve/252/98624579.png"
+                        },
+                        "slug": "peace",
+                        "albums_count": 16,
+                        "name": "Peace"
+                    },
+                    "qobuz_id": 7454605,
+                    "popularity": 0.31404317417836,
+                    "purchasable": true,
+                    "streamable": false,
+                    "previewable": true,
+                    "sampleable": true,
+                    "downloadable": true,
+                    "displayable": true,
+                    "purchasable_at": 1422572400,
+                    "streamable_at": 1422572400,
+                    "maximum_sampling_rate": 44.1,
+                    "maximum_bit_depth": 16,
+                    "hires": false
+                },
+                "performer": {
+                    "id": 108478,
+                    "name": "Peace"
+                },
+                "media_number": 1,
+                "copyright": "(P) 2013 Sony Music Entertainment UK Limited (P) 2013 Sony Music Entertainment UK Limited",
+                "track_number": 1,
+                "version": null,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1422572400,
+                "streamable_at": 1422572400,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false,
+                "position": 2,
+                "created_at": 1371573597,
+                "playlist_track_id": 18852606
+            }
+        ]
+    }
+}
