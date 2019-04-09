@@ -170,3 +170,44 @@ class User(object):
         )
 
         return status.get("status") == "true"
+
+    def favorites_get(self, fav_type=None, limit=50, offset=0):
+        """Get all favorites for the user.
+
+        Parameters
+        ----------
+        fav_type: str
+            Favorite type: 'artist', 'album' or 'track'
+        limit: int
+            Number of elements returned per request
+        offset: int
+            Offset from which to obtain limit elements
+
+        Returns
+        -------
+        list
+            List containing Artist/Album/Track objects
+        """
+        favorites = api.request(
+            "favorite/getUserFavorites",
+            type=fav_type,
+            limit=limit,
+            offset=offset,
+            user_auth_token=self.auth_token,
+        )
+
+        if fav_type == "artist":
+            return [Artist(f) for f in favorites["artists"]["items"]]
+        if fav_type == "album":
+            return [Album(f) for f in favorites["albums"]["items"]]
+        if fav_type == "track":
+            return [Track(f) for f in favorites["tracks"]["items"]]
+        else:
+            all_favorites = [Artist(f) for f in favorites["artists"]["items"]]
+            all_favorites.append(
+                Album(f) for f in favorites["albums"]["items"]
+            )
+            all_favorites.append(
+                Track(f) for f in favorites["tracks"]["items"]
+            )
+            return all_favorites
