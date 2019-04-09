@@ -31,6 +31,10 @@ class Artist(object):
             and self.albums_count == other.albums_count
         )
 
+    @property
+    def type(self):
+        return "artist"
+
     def get_all_albums(self, offset=0, limit=50):
         """Return albums of an artist.
 

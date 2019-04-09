@@ -2,6 +2,7 @@ import qobuz
 import responses
 
 from tests.resources.responses import artist_search_json
+from tests.resources.fixtures import artist
 
 
 def get_url(artist_id):
@@ -40,3 +41,7 @@ def test_artist_from_id():
         artist_from_id = qobuz.Artist.from_id(artist_item["id"])
 
     assert artist_from_id == qobuz.Artist(artist_item)
+
+
+def test_artist_type(artist):
+    assert artist.type == "artist"
