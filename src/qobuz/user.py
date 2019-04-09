@@ -55,3 +55,21 @@ class User(object):
             Hashed password to be used for logging in
         """
         return hashlib.md5(password.encode()).hexdigest()
+
+    @staticmethod
+    def reset_password(username):
+        """Request the resetting of the current password.
+
+        Parameters
+        ----------
+        username: str
+            Username to be sent a email with instructions.
+
+        Returns
+        -------
+        bool
+            Successfully requested
+        """
+        resp = api.request("user/resetPassword", username=username)
+
+        return resp.get("status") == "success"
