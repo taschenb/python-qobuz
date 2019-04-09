@@ -29,6 +29,10 @@ class Album(object):
         self.released_at = album_item.get("released_at")
         self.artist = Artist(album_item["artist"])
 
+    @property
+    def type(self):
+        return "album"
+
     def __eq__(self, other):
         return (
             self.id == other.id

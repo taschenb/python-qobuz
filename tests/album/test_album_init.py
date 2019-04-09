@@ -2,6 +2,7 @@ import qobuz
 import responses
 
 from tests.resources.responses import album_get_json
+from tests.resources.fixtures import album
 
 
 def get_url(album_id):
@@ -36,3 +37,7 @@ def test_album_from_id(album):
         album_from_id = qobuz.Album.from_id(album.id)
 
     assert album_from_id == album
+
+
+def test_album_type(album):
+    assert album.type == "album"
