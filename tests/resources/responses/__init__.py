@@ -12,5 +12,8 @@ with open("tests/resources/responses/artist_get_albums.json") as json_data:
 with open("tests/resources/responses/artist_search.json") as json_data:
     artist_search_json = json.load(json_data)
 
+with open("tests/resources/responses/user_login.json") as json_data:
+    user_login_json = json.load(json_data)
+
 with open("tests/resources/responses/track_search.json") as json_data:
     track_search_json = json.load(json_data)

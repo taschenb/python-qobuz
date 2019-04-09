@@ -1,0 +1,127 @@
+{
+    "user": {
+        "id": 123456,
+        "email": "myemail@email.com",
+        "login": "myLogin",
+        "firstname": "",
+        "lastname": "",
+        "country_code": "GB",
+        "language_code": "en",
+        "zone": "GB",
+        "store": "GB-en",
+        "country": "GB",
+        "avatar": "http://www.gravatar.com/avatar/123456abecdeijziefizh12345?s=50&d=mm",
+        "player_settings": {
+            "browser": {
+                "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:37.0) Gecko/20100101 Firefox/37.0",
+                "browserName": "firefox",
+                "browserVersion": 37,
+                "osName": "mac",
+                "platform": "MacIntel",
+                "cookieEnabled": true,
+                "language": "en",
+                "touchDevice": false,
+                "applicationCache": true,
+                "localStorage": true,
+                "context": "web",
+                "qobuzDesktopVersion": null,
+                "qobuzPlayerVersion": "2.4.v0.23.0-6-g4f8a15c.release-0.24.0 28.04.2015 15:02",
+                "systemUID": null,
+                "webAudio": true,
+                "remoteAddr": "12.34.56.78"
+            },
+            "last_state": {
+                "datetime": 1431526182,
+                "page": [
+                    "track",
+                    "123454"
+                ],
+                "track": null
+            },
+            "player_volume": 59,
+            "grid_sort_column": "releaseDate",
+            "grid_sort_direction": true,
+            "featured_menu": "maximize",
+            "facebook_auto_login": false,
+            "player_offline_format": 6,
+            "filter_columns_visible": false,
+            "player_fullscreen": false,
+            "player_shuffle": false,
+            "player_crossfade": false,
+            "sidebar": "maximize",
+            "grid_view_mode": "tracks_list",
+            "now_playing": "minimize",
+            "excluded_genre_ids": [],
+            "playlists_sort": "drag_drop",
+            "player_crossfade_duration": 6,
+            "init_playback_restore": false,
+            "player_audio_format": 6,
+            "grid_columns": [
+                "position",
+                "title",
+                "artist",
+                "album",
+                "genre",
+                "label",
+                "releaseDate",
+                "duration"
+            ],
+            "offline_library_unsupported_format_visible": true,
+            "sidebar_width": 231,
+            "html5_audio_forced": true,
+            "player_loop": 0,
+            "offline_library_cache_visible": true,
+            "player_gapless": true,
+            "player_mute": false,
+            "player_type": "js",
+            "excluded_genre_ids": [
+                80,
+                6,
+                2,
+                94,
+                91
+            ]
+        },
+        "credential": {
+            "id": 123456,
+            "label": "streaming-hifi-sublime",
+            "description": "Subscriber HIFI Sublime",
+            "parameters": {
+                "lossy_streaming": true,
+                "lossless_streaming": true,
+                "mobile_streaming": true,
+                "hfp_purchase": true,
+                "offline_streaming": true,
+                "included_format_group_ids": [
+                    2,
+                    3,
+                    4
+                ],
+                "included_supplier_ids": [
+                    22
+                ],
+                "color_scheme": {
+                    "logo": "#B8D729"
+                },
+                "label": "HIFI Sublime",
+                "short_label": "HIFI Sublime",
+                "hires_purchases_streaming": true,
+                "included_label_ids": [
+                    19089,
+                    15650,
+                    25971
+                ]
+            }
+        },
+        "externals": {},
+         "device": {
+                "id": 401134,
+                "device_manufacturer_id": "16922031-0352-59D3-ADA2-B8E48236E8F7",
+                "device_model": null,
+                "device_os_version": null,
+                "device_platform": "MacIntel"
+                }
+
+    },
+    "user_auth_token": "123456789myAuthTocken"
+}
