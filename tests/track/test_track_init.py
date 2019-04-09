@@ -1,6 +1,8 @@
 import qobuz
+import responses
 
-from tests.resources.responses import track_search_json
+from tests.resources.responses import track_search_json, artist_get_albums_json
+from tests.resources.fixtures import artist, track
 
 
 qobuz.api.APP_ID = "request_from_api@qobuz.com"
@@ -14,6 +16,10 @@ def test_track_init():
     assert track.id == track_item["id"]
     assert track.title == track_item["title"]
     assert track.album == qobuz.Album(track_item["album"])
+
+
+def test_track_type(track):
+    assert track.type == "track"
 
 
 def test_track_artist_lookup(track, artist):
