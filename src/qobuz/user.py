@@ -1,6 +1,6 @@
 import hashlib
 
-from qobuz import api, Artist, Album, Track
+from qobuz import api, Artist, Album, Track, Playlist
 
 
 class User(object):
@@ -211,3 +211,30 @@ class User(object):
                 Track(f) for f in favorites["tracks"]["items"]
             )
             return all_favorites
+
+    def playlist_create(
+        self, name, description=None, is_public=0, is_collaborative=0
+    ):
+        """Create a new playlist.
+
+        Parameters
+        ----------
+        name: str
+            Name for the new playlist
+        description: str
+            Description for the playlist
+        is_public: bool
+            Flag to make the playlist public.
+        is_collaborative: bool
+            Flag to make the playlist collaborative.
+        """
+        playlist = api.request(
+            "playlist/create",
+            name=name,
+            description=description,
+            is_public=is_public,
+            is_collaborative=is_collaborative,
+            user_auth_token=self.auth_token,
+        )
+
+        return Playlist(playlist)
