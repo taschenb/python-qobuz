@@ -33,6 +33,10 @@ class Track(object):
 
     @property
     def artist(self):
+        # Not all tracks have a valid performer
+        if self._performer_id is None:
+            return
+
         if self._artist is None:
             self._artist = Artist.from_id(self._performer_id)
         return self._artist
