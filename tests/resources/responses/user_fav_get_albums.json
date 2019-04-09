@@ -1,0 +1,148 @@
+{
+    "albums": {
+        "offset": 0,
+        "limit": 2,
+        "total": 134,
+        "items": [
+            {
+                "id": "5051083087698",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 16,
+                "title": "MG",
+                "released_at": 1430085600,
+                "duration": 3281,
+                "articles": [
+                    {
+                        "id": 58563444,
+                        "label": "Qualité CD 16 bits",
+                        "price": 9.99,
+                        "type": "lls",
+                        "url": "/order/58563444",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "EUR"
+                    }
+                ],
+                "media_count": 1,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/98/76/5051083087698_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/98/76/5051083087698_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/98/76/5051083087698_50.jpg"
+                },
+                "label": {
+                    "id": 46809,
+                    "slug": "mute-2",
+                    "supplier_id": 30,
+                    "albums_count": 377,
+                    "name": "Mute"
+                },
+                "artist": {
+                    "id": 561952,
+                    "picture": null,
+                    "image": null,
+                    "slug": "mg",
+                    "albums_count": 8,
+                    "name": "MG"
+                },
+                "qobuz_id": 24114418,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": true,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1430085600,
+                "streamable_at": 1430085600,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false,
+                "favorited_at": 1431519420
+            },
+            {
+                "id": "0808699111126",
+                "genre": {
+                    "path": [
+                        64
+                    ],
+                    "id": 64,
+                    "slug": "electro",
+                    "color": "#5eabc1",
+                    "name": "Electro"
+                },
+                "tracks_count": 24,
+                "title": "The Demon Diaries",
+                "released_at": 1430431200,
+                "duration": 5607,
+                "articles": [
+                    {
+                        "id": 57177168,
+                        "label": "Qualité CD 16 bits",
+                        "price": 16.79,
+                        "type": "lls",
+                        "url": "/order/57177168",
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "EUR"
+                    },
+                    {
+                        "id": 57177169,
+                        "label": "Hi-Res",
+                        "price": 20.99,
+                        "type": "smr",
+                        "url": "/order/57177169",
+                        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "currency": "EUR"
+                    }
+                ],
+                "media_count": 2,
+                "image": {
+                    "small": "http://static.qobuz.com/images/covers/26/11/0808699111126_230.jpg",
+                    "back": null,
+                    "large": "http://static.qobuz.com/images/covers/26/11/0808699111126_600.jpg",
+                    "thumbnail": "http://static.qobuz.com/images/covers/26/11/0808699111126_50.jpg"
+                },
+                "label": {
+                    "id": 107193,
+                    "slug": "etage-noir-recordings",
+                    "supplier_id": 3,
+                    "albums_count": 3,
+                    "name": "Etage Noir Recordings"
+                },
+                "artist": {
+                    "id": 31317,
+                    "picture": null,
+                    "image": null,
+                    "slug": "parov-stelar",
+                    "albums_count": 16,
+                    "name": "Parov Stelar"
+                },
+                "qobuz_id": 23585993,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": true,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1431295200,
+                "streamable_at": 1431295200,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 24,
+                "hires": true,
+                "favorited_at": 1431334789
+            }
+        ]
+    },
+    "user": {
+        "id": 178905,
+        "login": "mylogin"
+    }
+}
