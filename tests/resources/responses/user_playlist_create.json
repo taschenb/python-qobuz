@@ -1,0 +1,16 @@
+{
+    "id": 213677,
+    "name": "superPlaylist",
+    "description": "Fantastic",
+    "tracks_count": 0,
+    "users_count": 0,
+    "duration": 0,
+    "created_at": 1431679485,
+    "updated_at": 1431679485,
+    "is_public": true,
+    "is_collaborative": false,
+    "owner": {
+        "id": 12345,
+        "name": "loris"
+    }
+}
