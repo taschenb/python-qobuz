@@ -97,6 +97,32 @@ class Playlist(object):
                 user_auth_token=own.auth_token,
             )
 
+    def del_tracks(self, tracks, own, max_elements_per_request=50):
+        """Delete tracks from the playlist.
+
+        In order to limit the length of the resulting URL for a very large
+        number of tracks, split the request into multiple.
+
+        Parameters
+        ----------
+        tracks: list: Track
+            Tracks to be deleted
+        own: User
+            Deleting tracks requires a logged in User
+        max_elements_per_request: int
+            Split the request into multiple. Each with at most this many tracks
+        """
+        track_ids = [t.id for t in tracks]
+
+        for c in self._split_into_chunks(track_ids, max_elements_per_request):
+            api.request(
+                "playlist/deleteTracks",
+                playlist_id=self.id,
+                comma_encoding=False,
+                track_ids=",".join(map(str, c)),
+                user_auth_token=own.auth_token,
+            )
+
     @classmethod
     def from_id(cls, playlist_id):
         playlist = api.request("playlist/get", playlist_id=playlist_id)
