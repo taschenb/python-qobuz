@@ -238,3 +238,24 @@ class User(object):
         )
 
         return Playlist(playlist)
+
+    def playlist_delete(self, playlist):
+        """Delete a playlist.
+
+        Parameters
+        ----------
+        playlist: Playlist
+            Playlist to be deleted
+
+        Returns
+        -------
+        bool
+            Successfully deleted playlist
+        """
+        status = api.request(
+            "playlist/delete",
+            playlist_id=playlist.id,
+            user_auth_token=self.auth_token,
+        )
+
+        return status.get("status") == "success"
