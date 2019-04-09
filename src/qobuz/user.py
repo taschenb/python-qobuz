@@ -1,5 +1,8 @@
 import hashlib
 
+from qobuz import api, Artist, Album, Track
+
+
 class User(object):
     """Own user to be logged in.
 
@@ -73,3 +76,39 @@ class User(object):
         resp = api.request("user/resetPassword", username=username)
 
         return resp.get("status") == "success"
+
+    def favorites_add(self, obj):
+        """Add artist/album/track to user's favorites.
+
+        Parameters
+        ----------
+        obj: Artist/Album/Track
+            Object to be added to the favorites
+
+        Returns
+        -------
+        bool
+            Successfully added to favorites
+        """
+        if isinstance(obj, Artist):
+            status = api.request(
+                "favorite/create",
+                artist_ids=obj.id,
+                user_auth_token=self.auth_token,
+            )
+        elif isinstance(obj, Album):
+            status = api.request(
+                "favorite/create",
+                album_ids=obj.id,
+                user_auth_token=self.auth_token,
+            )
+        elif isinstance(obj, Track):
+            status = api.request(
+                "favorite/create",
+                track_ids=obj.id,
+                user_auth_token=self.auth_token,
+            )
+        else:
+            raise TypeError("obj must be Artist, Album or Track")
+
+        return status.get("status") == "success"
