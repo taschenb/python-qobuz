@@ -32,3 +32,27 @@ class Playlist(object):
         playlist = api.request("playlist/get", playlist_id=playlist_id)
 
         return cls(playlist)
+
+    @classmethod
+    def search(cls, query, limit=50, offset=0):
+        """Search for a playlist.
+
+        Parameters
+        ----------
+        query: str
+            Search query
+        limit: int
+            Number of elements returned per request
+        offset: int
+            Offset from which to obtain limit elements
+
+        Returns
+        -------
+        list of Playlist
+            Resulting playlists for the search query
+        """
+        playlists = api.request(
+            "playlist/search", query=query, limit=limit, offset=offset
+        )
+
+        return [cls(p) for p in playlists["playlists"]["items"]]
