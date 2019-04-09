@@ -14,3 +14,16 @@ def test_track_init():
     assert track.id == track_item["id"]
     assert track.title == track_item["title"]
     assert track.album == qobuz.Album(track_item["album"])
+
+
+def test_track_artist_lookup(track, artist):
+    with responses.RequestsMock() as response_mock:
+        response_mock.add(
+            responses.GET,
+            url=qobuz.api.API_URL + "artist/get",
+            json=artist_get_albums_json,
+            status=200,
+            match_querystring=False,
+        )
+
+        assert track.artist == qobuz.Artist(artist_get_albums_json)
