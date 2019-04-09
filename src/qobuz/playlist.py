@@ -27,6 +27,30 @@ class Playlist(object):
             and self.description == other.description
         )
 
+    def get_tracks(self, limit=50, offset=0):
+        """Tracks of the playlist.
+
+        Parameters
+        ---------
+        limit: int
+            Number of elements returned per request
+        offset: int
+            Offset from which to obtain limit elements
+
+        Returns
+        -------
+        lst
+            List of Tracks
+        """
+        playlist = api.request(
+            "playlist/get",
+            playlist_id=self.id,
+            extra="tracks",
+            limit=limit,
+            offset=offset,
+        )
+
+        return [Track(t) for t in playlist["tracks"]["items"]]
     @classmethod
     def from_id(cls, playlist_id):
         playlist = api.request("playlist/get", playlist_id=playlist_id)
