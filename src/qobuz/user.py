@@ -112,3 +112,39 @@ class User(object):
             raise TypeError("obj must be Artist, Album or Track")
 
         return status.get("status") == "success"
+
+    def favorites_del(self, obj):
+        """Delete artist/album/track from favorites.
+
+        Parameters
+        ----------
+        obj: Artist/Album/Track
+            Object to be added to the favorites
+
+        Returns
+        -------
+        bool
+            Successfully deleted from favorites
+        """
+        if isinstance(obj, Artist):
+            status = api.request(
+                "favorite/delete",
+                artist_ids=obj.id,
+                user_auth_token=self.auth_token,
+            )
+        elif isinstance(obj, Album):
+            status = api.request(
+                "favorite/delete",
+                album_ids=obj.id,
+                user_auth_token=self.auth_token,
+            )
+        elif isinstance(obj, Track):
+            status = api.request(
+                "favorite/delete",
+                track_ids=obj.id,
+                user_auth_token=self.auth_token,
+            )
+        else:
+            raise TypeError("obj must be Artist, Album or Track")
+
+        return status.get("status") == "success"
