@@ -148,3 +148,25 @@ class User(object):
             raise TypeError("obj must be Artist, Album or Track")
 
         return status.get("status") == "success"
+
+    def favorites_status(self, obj):
+        """Get status whether obj is in the favorites.
+
+        Parameters
+        ----------
+        obj: Artist/Album/Track
+            Object to be added to the favorites
+
+        Returns
+        -------
+        bool
+            Successfully deleted from favorites
+        """
+        status = api.request(
+            "favorite/status",
+            item=obj.id,
+            type=obj.type,
+            user_auth_token=self.auth_token,
+        )
+
+        return status.get("status") == "true"
