@@ -13,12 +13,16 @@ class Track(object):
         'id', 'title', 'album', and 'performer'
     """
 
-    __slots__ = ["id", "title", "album", "_artist", "_performer_id"]
+    __slots__ = ["id", "title", "album", "duration", "media_number",
+                 "track_number", "_artist", "_performer_id"]
 
     def __init__(self, track_item):
         self.id = track_item.get("id")
         self.title = track_item.get("title")
         self.album = Album(track_item.get("album"))
+        self.duration = track_item.get("duration")
+        self.media_number = track_item.get("media_number")
+        self.track_number = track_item.get("track_number")
         self._performer_id = track_item.get("performer", {}).get("id")
         self._artist = None
 

@@ -16,6 +16,9 @@ def test_track_init():
     assert track.id == track_item["id"]
     assert track.title == track_item["title"]
     assert track.album == qobuz.Album(track_item["album"])
+    assert track.duration == track_item["duration"]
+    assert track.media_number == track_item["media_number"]
+    assert track.track_number == track_item["track_number"]
 
 
 def test_track_type(track):
