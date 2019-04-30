@@ -72,3 +72,7 @@ class Track(object):
         )
 
         return [cls(t) for t in tracks["tracks"]["items"]]
+
+    @classmethod
+    def from_id(cls, id):
+        return cls(api.request("track/get", track_id=id))
