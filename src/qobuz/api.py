@@ -1,5 +1,9 @@
 import requests
-from urllib.parse import urljoin
+try:
+    from urllib.parse import urljoin
+except ImportError:
+    # python2
+    from urlparse import urljoin
 
 
 API_URL = "https://www.qobuz.com/api.json/0.2/"

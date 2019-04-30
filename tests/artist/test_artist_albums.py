@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pytest
 import qobuz
 import responses
@@ -52,7 +53,7 @@ def test_artist_album_content(response_all_albums):
     albums = artist.get_all_albums()
 
     assert albums[0].id == "0886443927087"
-    assert albums[0].title == "Random Access Memories (Édition Studio Masters)"
+    assert albums[0].title == u"Random Access Memories (Édition Studio Masters)"
     assert albums[0].tracks_count == 13
     assert albums[0].released_at == 1368741600
 
