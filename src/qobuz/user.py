@@ -212,6 +212,17 @@ class User(object):
             )
             return all_favorites
 
+    def playlists_get(self, filter='owner', limit=50, offset=0):
+        result = api.request(
+            "playlist/getUserPlaylists",
+            filter=filter,
+            limit=limit,
+            offset=offset,
+            user_auth_token=self.auth_token,
+        )
+
+        return [Playlist(p, user=self) for p in result["playlists"]["items"]]
+
     def playlist_create(
         self, name, description=None, is_public=0, is_collaborative=0
     ):
