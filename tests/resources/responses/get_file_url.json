@@ -1,0 +1,9 @@
+{
+    "track_id": 23601296,
+    "duration": 245,
+    "url": "http:\/\/streaming.qobuz.com:80\/file?uid=178905&eid=23601296&fmt=6&app_id=305874112&cid=316057&etsp=1431450673&hmac=ABCDEFGHIjklmopq",
+    "format_id": 6,
+    "mime_type": "audio\/flac",
+    "sampling_rate": 44.1,
+    "bit_depth": 16
+}

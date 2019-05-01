@@ -32,3 +32,6 @@ with open("tests/resources/responses/playlist_add_tracks.json") as json_data:
 
 with open("tests/resources/responses/playlist_search.json") as json_data:
     playlist_search_json = json.load(json_data)
+
+with open("tests/resources/responses/get_file_url.json") as json_data:
+    get_file_url_json = json.load(json_data)
