@@ -1,8 +1,14 @@
+import pytest
 import qobuz
 import responses
 
 from tests.resources.responses import artist_search_json
 from tests.resources.fixtures import artist
+
+
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(artist_id):
@@ -14,7 +20,7 @@ def get_url(artist_id):
     )
 
 
-def test_artist_init():
+def test_artist_init(app):
     artist_item = artist_search_json["artists"]["items"][0]
 
     artist = qobuz.Artist(artist_item)
@@ -26,7 +32,7 @@ def test_artist_init():
     assert artist.albums_count == artist_item["albums_count"]
 
 
-def test_artist_from_id():
+def test_artist_from_id(app):
     artist_item = artist_search_json["artists"]["items"][0]
 
     with responses.RequestsMock() as response_mock:
@@ -43,5 +49,5 @@ def test_artist_from_id():
     assert artist_from_id == qobuz.Artist(artist_item)
 
 
-def test_artist_type(artist):
+def test_artist_type(app, artist):
     assert artist.type == "artist"

@@ -6,7 +6,9 @@ from tests.resources.fixtures import user
 from tests.resources.responses import playlist_create_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_playlist_create_url(
@@ -44,7 +46,7 @@ def response_playlist_create():
         yield response_mock
 
 
-def test_user_playlist_create(user, response_playlist_create):
+def test_user_playlist_create(app, user, response_playlist_create):
     resp = playlist_create_json
     playlist = user.playlist_create(
         name=resp["name"],

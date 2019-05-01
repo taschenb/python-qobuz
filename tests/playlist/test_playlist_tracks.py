@@ -5,7 +5,9 @@ import responses
 from tests.resources.responses import playlist_get_tracks_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(playlist_id, limit=50, offset=0, extra=None):
@@ -52,20 +54,20 @@ def playlist_item():
     }
 
 
-def test_playlist_tracks_len(playlist_item, response_playlist_tracks):
+def test_playlist_tracks_len(app, playlist_item, response_playlist_tracks):
     playlist = qobuz.Playlist(playlist_item)
 
     assert len(playlist.get_tracks()) == 2
 
 
-def test_playlist_tracks_type(playlist_item, response_playlist_tracks):
+def test_playlist_tracks_type(app, playlist_item, response_playlist_tracks):
     playlist = qobuz.Playlist(playlist_item)
 
     for t in playlist.get_tracks():
         assert isinstance(t, qobuz.Track)
 
 
-def test_playlist_tracks_conntent(playlist_item, response_playlist_tracks):
+def test_playlist_tracks_conntent(app, playlist_item, response_playlist_tracks):
     playlist = qobuz.Playlist(playlist_item)
     tracks = playlist.get_tracks()
 

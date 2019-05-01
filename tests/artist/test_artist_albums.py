@@ -6,7 +6,9 @@ import responses
 from tests.resources.responses import artist_get_albums_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(artist_id, offset=0, limit=50):
@@ -34,20 +36,20 @@ def response_all_albums():
         yield response_mock
 
 
-def test_artist_albums_len(response_all_albums):
+def test_artist_albums_len(app, response_all_albums):
     artist = qobuz.Artist(artist_get_albums_json)
 
     assert len(artist.get_all_albums()) == 25
 
 
-def test_artist_albums_type(response_all_albums):
+def test_artist_albums_type(app, response_all_albums):
     artist = qobuz.Artist(artist_get_albums_json)
 
     for a in artist.get_all_albums():
         assert isinstance(a, qobuz.Album)
 
 
-def test_artist_album_content(response_all_albums):
+def test_artist_album_content(app, response_all_albums):
     artist = qobuz.Artist(artist_get_albums_json)
 
     albums = artist.get_all_albums()
@@ -58,7 +60,7 @@ def test_artist_album_content(response_all_albums):
     assert albums[0].released_at == 1368741600
 
 
-def test_artist_album_artist(response_all_albums):
+def test_artist_album_artist(app, response_all_albums):
     artist = qobuz.Artist(artist_get_albums_json)
 
     albums = artist.get_all_albums()

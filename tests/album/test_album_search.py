@@ -5,7 +5,9 @@ import responses
 from tests.resources.responses import album_search_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(query, limit=50, offset=0):
@@ -33,16 +35,16 @@ def albums_search_result():
         yield qobuz.Album.search(album_search_json["query"])
 
 
-def test_album_search_len(albums_search_result):
+def test_album_search_len(app, albums_search_result):
     assert len(albums_search_result) > 0
 
 
-def test_album_search_type(albums_search_result):
+def test_album_search_type(app, albums_search_result):
     for album in albums_search_result:
         assert isinstance(album, qobuz.Album)
 
 
-def test_album_search_content(albums_search_result):
+def test_album_search_content(app, albums_search_result):
     id = album_search_json["albums"]["items"][0]["id"]
     title = album_search_json["albums"]["items"][0]["title"]
     tracks_count = album_search_json["albums"]["items"][0]["tracks_count"]

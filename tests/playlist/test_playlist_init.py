@@ -1,8 +1,14 @@
+import pytest
 import qobuz
 import responses
 
 from tests.resources.responses import playlist_create_json
 from tests.resources.fixtures import playlist
+
+
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(playlist_id):
@@ -14,7 +20,7 @@ def get_url(playlist_id):
     )
 
 
-def test_playlist_init():
+def test_playlist_init(app):
     playlist = qobuz.Playlist(playlist_create_json)
 
     assert playlist.id == playlist_create_json["id"]
@@ -22,7 +28,7 @@ def test_playlist_init():
     assert playlist.description == playlist_create_json["description"]
 
 
-def test_playlist_from_id(playlist):
+def test_playlist_from_id(app, playlist):
     with responses.RequestsMock() as response_mock:
         response_mock.add(
             responses.GET,

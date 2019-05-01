@@ -5,7 +5,9 @@ import responses
 from tests.resources.responses import track_search_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(query, limit=50, offset=0):
@@ -32,20 +34,20 @@ def response_track_search():
         yield response_mock
 
 
-def test_track_search_len(response_track_search):
+def test_track_search_len(app, response_track_search):
     tracks = qobuz.Track.search(track_search_json["query"])
 
     assert len(tracks) == len(track_search_json["tracks"]["items"])
 
 
-def test_track_search_type(response_track_search):
+def test_track_search_type(app, response_track_search):
     tracks = qobuz.Track.search(track_search_json["query"])
 
     for t in tracks:
         assert isinstance(t, qobuz.Track)
 
 
-def test_track_search_content(response_track_search):
+def test_track_search_content(app, response_track_search):
     tracks = qobuz.Track.search(track_search_json["query"])
 
     track_items = track_search_json["tracks"]["items"]

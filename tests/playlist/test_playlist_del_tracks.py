@@ -1,3 +1,4 @@
+import pytest
 import qobuz
 import responses
 
@@ -6,7 +7,9 @@ from tests.resources.responses import playlist_get_tracks_json
 from tests.resources.responses import playlist_add_tracks_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(playlist_id, user_auth_token, track_ids=""):
@@ -20,7 +23,7 @@ def get_url(playlist_id, user_auth_token, track_ids=""):
     )
 
 
-def test_playlist_del_tracks(playlist, user):
+def test_playlist_del_tracks(app, playlist, user):
     track_ids = ",".join(
         [str(t["id"]) for t in playlist_get_tracks_json["tracks"]["items"]]
     )

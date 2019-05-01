@@ -5,7 +5,9 @@ import responses
 from tests.resources.responses import playlist_search_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_url(query, limit=50, offset=0):
@@ -33,14 +35,14 @@ def response_search():
         yield response_mock
 
 
-def test_search_len(response_search):
+def test_search_len(app, response_search):
     playlists = qobuz.Playlist.search(playlist_search_json["query"])
 
     assert len(playlists) != 0
     assert len(playlists) == len(playlist_search_json["playlists"]["items"])
 
 
-def test_search_content(response_search):
+def test_search_content(app, response_search):
     playlists = qobuz.Playlist.search(playlist_search_json["query"])
     playlists_resp = playlist_search_json["playlists"]["items"]
 

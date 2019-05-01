@@ -1,3 +1,4 @@
+import pytest
 import qobuz
 import responses
 
@@ -5,10 +6,12 @@ from tests.resources.responses import track_search_json, artist_get_albums_json
 from tests.resources.fixtures import artist, track
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
-def test_track_init():
+def test_track_init(app):
     track_item = track_search_json["tracks"]["items"][0]
 
     track = qobuz.Track(track_item)
@@ -21,11 +24,11 @@ def test_track_init():
     assert track.track_number == track_item["track_number"]
 
 
-def test_track_type(track):
+def test_track_type(app, track):
     assert track.type == "track"
 
 
-def test_track_artist_lookup(track, artist):
+def test_track_artist_lookup(app, track, artist):
     with responses.RequestsMock() as response_mock:
         response_mock.add(
             responses.GET,

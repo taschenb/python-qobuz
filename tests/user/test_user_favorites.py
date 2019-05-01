@@ -6,7 +6,9 @@ from tests.resources.fixtures import user, album
 from tests.resources.responses import user_fav_get_albums_json
 
 
-qobuz.api.APP_ID = "request_from_api@qobuz.com"
+@pytest.fixture
+def app():
+    qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
 def get_favorite_albums_url(user_auth_token, limit=50, offset=0):
@@ -55,20 +57,20 @@ def response_fav_get_albums(user):
         yield response_mock
 
 
-def test_user_favorite_get_albums_type(user, response_fav_get_albums):
+def test_user_favorite_get_albums_type(app, user, response_fav_get_albums):
     albums = user.favorites_get(fav_type="album")
 
     for a in albums:
         assert isinstance(a, qobuz.Album)
 
 
-def test_user_favorite_get_albums_len(user, response_fav_get_albums):
+def test_user_favorite_get_albums_len(app, user, response_fav_get_albums):
     albums = user.favorites_get(fav_type="album")
 
     assert len(albums) == user_fav_get_albums_json["albums"]["limit"]
 
 
-def test_user_favorite_get_albums_content(user, response_fav_get_albums):
+def test_user_favorite_get_albums_content(app, user, response_fav_get_albums):
     albums = user.favorites_get(fav_type="album")
 
     for i in range(len(albums)):
@@ -77,7 +79,7 @@ def test_user_favorite_get_albums_content(user, response_fav_get_albums):
         )
 
 
-def test_user_favorite_add_albums(user, album):
+def test_user_favorite_add_albums(app, user, album):
     fav_add_album_url = get_favorite_add_albums_url(album.id, user.auth_token)
 
     with responses.RequestsMock() as response_mock:
@@ -92,7 +94,7 @@ def test_user_favorite_add_albums(user, album):
         assert user.favorites_add(album) is True
 
 
-def test_user_favorite_del_albums(user, album):
+def test_user_favorite_del_albums(app, user, album):
     fav_del_album_url = get_favorite_del_albums_url(album.id, user.auth_token)
 
     with responses.RequestsMock() as response_mock:
