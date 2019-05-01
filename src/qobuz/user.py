@@ -259,3 +259,36 @@ class User(object):
         )
 
         return status.get("status") == "success"
+
+    def get_file_url(self, track_id, format_id=None, intent=None):
+        """Get the file url for a track.
+
+        Parameters
+        ----------
+        track_id: int
+            Track-ID to get the url for
+        format_id: int
+            Format ID following qobuz specifications:
+             5: MP3 320
+             6: FLAC Lossless
+             7: FLAC Hi-Res 24 bit =< 96kHz,
+            27: FLAC Hi-Res 24 bit >96 kHz & =< 192 kHz
+        intent: str
+            How the application will use the file URL
+            Either 'stream', 'import', or 'download'.
+
+        Returns
+        -------
+        str
+            URL to the appropriate file
+        """
+        resp = api.request(
+            "track/getFileUrl",
+            signed=True,
+            track_id=track_id,
+            format_id=format_id,
+            intent=intent,
+            user_auth_token=self.auth_token,
+        )
+
+        return resp.get("url")
