@@ -11,14 +11,17 @@ class Playlist(object):
 
         Keys should include:
         'id', 'name', and 'description'
+    user: User
+        Add when the playlist is your own, otherwise tracks won't be accessible
     """
 
-    __slots__ = ["id", "name", "description"]
+    __slots__ = ["id", "name", "description", "_user"]
 
-    def __init__(self, playlist_item):
+    def __init__(self, playlist_item, user=None):
         self.id = playlist_item.get("id")
         self.name = playlist_item.get("name")
         self.description = playlist_item.get("description")
+        self._user = user
 
     def __eq__(self, other):
         return (
@@ -42,11 +45,14 @@ class Playlist(object):
         lst
             List of Tracks
         """
+        token = self._user.auth_token if self._user else None
+
         playlist = api.request(
             "playlist/get",
             playlist_id=self.id,
             extra="tracks",
             limit=limit,
+            user_auth_token=token,
             offset=offset,
         )
 
