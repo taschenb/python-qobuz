@@ -1,3 +1,4 @@
+import qobuz
 import requests
 try:
     from urllib.parse import urljoin
@@ -10,6 +11,17 @@ API_URL = "https://www.qobuz.com/api.json/0.2/"
 APP_ID = None
 
 
+def register_app(app_id):
+    """Save the app's id and secret to be used when needed.
+
+    Parameters
+    ----------
+    app_id: str
+        The ID of the APP, issued by api@qobuz.com
+    """
+    qobuz.api.APP_ID = app_id
+
+
 def request(url, comma_encoding=True, **params):
     """Call Qobuz API for URL and parameters.
 
@@ -18,7 +30,7 @@ def request(url, comma_encoding=True, **params):
     An APP_ID can be requested from api@qobuz.com.
 
     >>> import qobuz
-    >>> qobuz.APP_ID = "your_app_id"
+    >>> qobuz.api.register_app(app_id="your_app_id")
 
     Parameters
     ----------
