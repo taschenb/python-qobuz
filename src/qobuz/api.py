@@ -1,7 +1,9 @@
+import binascii
 import hashlib
 import qobuz
 import requests
 import time
+from itertools import cycle
 try:
     from urllib.parse import urljoin
 except ImportError:
@@ -102,6 +104,32 @@ def _request_comma_params(url, **params):
     url = "{}?{}".format(urljoin(API_URL, url), params)
 
     return _request(url)
+
+
+def get_s4(app_id, s3b):
+    """Return the secret.
+
+    This is based on the way the Kodi-plugin handles the secret.
+    In this the secret has an additional encoding and must be converted first.
+    While this is just a useless security through obscurity measurement and
+    could just be calculated once, this functions allows to use the same format.
+
+    Parameters
+    ----------
+    app_id: str
+        The ID of the APP, issued by api@qobuz.com
+    s3b: str
+        Secret encoded for security through obscurity.
+    """
+    s3s = binascii.a2b_base64(s3b)
+
+    try:
+        return "".join(chr(x ^ ord(y)) for (x, y) in zip(s3s, cycle(app_id)))
+    except TypeError:
+        # python2
+        return "".join(
+            chr(ord(x) ^ ord(y)) for (x, y) in zip(s3s, cycle(app_id))
+        )
 
 
 def _get_request_sig(url, timestamp, **params):
