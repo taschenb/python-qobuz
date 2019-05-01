@@ -1,0 +1,335 @@
+{
+    "user": {
+        "id": 12345,
+        "login": "loris"
+    },
+    "playlists": {
+        "offset": 0,
+        "limit": 4,
+        "total": 40,
+        "items": [
+            {
+                "tracks_count": 176,
+                "genres": [
+                    {
+                        "id": 112,
+                        "percent": 30.11,
+                        "color": "#5eabc1",
+                        "name": "Pop/Rock",
+                        "path": [
+                            112
+                        ],
+                        "slug": "pop-rock"
+                    },
+                    {
+                        "id": 113,
+                        "percent": 22.73,
+                        "color": "#5eabc1",
+                        "name": "Alternatif et Indé",
+                        "path": [
+                            112,
+                            119,
+                            113
+                        ],
+                        "slug": "alternatif-et-inde"
+                    },
+                    {
+                        "id": 133,
+                        "percent": 17.05,
+                        "color": "#5eabc1",
+                        "name": "Rap",
+                        "path": [
+                            133
+                        ],
+                        "slug": "rap-hip-hop"
+                    },
+                    {
+                        "id": 117,
+                        "percent": 8.52,
+                        "color": "#5eabc1",
+                        "name": "Pop",
+                        "path": [
+                            112,
+                            117
+                        ],
+                        "slug": "pop"
+                    }
+                ],
+                "images150": [
+                    "http://static.qobuz.com/images/covers/87/70/0886443927087_150.jpg",
+                    "http://static.qobuz.com/images/covers/60/55/0886444405560_150.jpg",
+                    "http://static.qobuz.com/images/covers/03/74/0886444407403_150.jpg",
+                    "http://static.qobuz.com/images/covers/03/29/0054391972903_150.jpg"
+                ],
+                "is_collaborative": false,
+                "images300": [
+                    "http://static.qobuz.com/images/covers/87/70/0886443927087_300.jpg",
+                    "http://static.qobuz.com/images/covers/60/55/0886444405560_300.jpg",
+                    "http://static.qobuz.com/images/covers/03/74/0886444407403_300.jpg",
+                    "http://static.qobuz.com/images/covers/03/29/0054391972903_300.jpg"
+                ],
+                "users_count": 2,
+                "id": 565551,
+                "duration": 42591,
+                "updated_at": 1420193674,
+                "is_public": true,
+                "description": "",
+                "name": "Random 2014",
+                "owner": {
+                    "id": 95244,
+                    "name": "mv.barlier"
+                },
+                "images": [
+                    "http://static.qobuz.com/images/covers/87/70/0886443927087_50.jpg",
+                    "http://static.qobuz.com/images/covers/60/55/0886444405560_50.jpg",
+                    "http://static.qobuz.com/images/covers/03/74/0886444407403_50.jpg",
+                    "http://static.qobuz.com/images/covers/03/29/0054391972903_50.jpg"
+                ],
+                "created_at": 1397556999,
+                "position": 4
+            },
+            {
+                "tracks_count": 48,
+                "genres": [
+                    {
+                        "id": 6,
+                        "percent": 62.5,
+                        "color": "#5eabc1",
+                        "name": "Chanson française",
+                        "path": [
+                            94,
+                            151,
+                            6
+                        ],
+                        "slug": "chanson-francaise"
+                    },
+                    {
+                        "id": 117,
+                        "percent": 20.83,
+                        "color": "#5eabc1",
+                        "name": "Pop",
+                        "path": [
+                            112,
+                            117
+                        ],
+                        "slug": "pop"
+                    },
+                    {
+                        "id": 129,
+                        "percent": 4.17,
+                        "color": "#5eabc1",
+                        "name": "Dance",
+                        "path": [
+                            64,
+                            129
+                        ],
+                        "slug": "dance"
+                    },
+                    {
+                        "id": 112,
+                        "percent": 4.17,
+                        "color": "#5eabc1",
+                        "name": "Pop/Rock",
+                        "path": [
+                            112
+                        ],
+                        "slug": "pop-rock"
+                    }
+                ],
+                "images150": [
+                    "http://static.qobuz.com/images/covers/16/54/7332181015416_150.jpg",
+                    "http://static.qobuz.com/images/covers/60/55/0886444405560_150.jpg",
+                    "http://static.qobuz.com/images/covers/22/59/0073145895922_150.jpg",
+                    "http://static.qobuz.com/images/covers/92/38/0825646543892_150.jpg"
+                ],
+                "is_collaborative": false,
+                "images300": [
+                    "http://static.qobuz.com/images/covers/16/54/7332181015416_300.jpg",
+                    "http://static.qobuz.com/images/covers/60/55/0886444405560_300.jpg",
+                    "http://static.qobuz.com/images/covers/22/59/0073145895922_300.jpg",
+                    "http://static.qobuz.com/images/covers/92/38/0825646543892_300.jpg"
+                ],
+                "users_count": 0,
+                "id": 587559,
+                "duration": 10191,
+                "updated_at": 1399569892,
+                "is_public": true,
+                "description": "",
+                "name": "hhh happy",
+                "owner": {
+                    "id": 12345,
+                    "name": "loris"
+                },
+                "images": [
+                    "http://static.qobuz.com/images/covers/16/54/7332181015416_50.jpg",
+                    "http://static.qobuz.com/images/covers/60/55/0886444405560_50.jpg",
+                    "http://static.qobuz.com/images/covers/22/59/0073145895922_50.jpg",
+                    "http://static.qobuz.com/images/covers/92/38/0825646543892_50.jpg"
+                ],
+                "created_at": 1399561792,
+                "position": 6
+            },
+            {
+                "tracks_count": 34,
+                "genres": [
+                    {
+                        "id": 6,
+                        "percent": 20.59,
+                        "color": "#5eabc1",
+                        "name": "Chanson française",
+                        "path": [
+                            94,
+                            151,
+                            6
+                        ],
+                        "slug": "chanson-francaise"
+                    },
+                    {
+                        "id": 64,
+                        "percent": 17.65,
+                        "color": "#5eabc1",
+                        "name": "Electro",
+                        "path": [
+                            64
+                        ],
+                        "slug": "electro"
+                    },
+                    {
+                        "id": 133,
+                        "percent": 14.71,
+                        "color": "#5eabc1",
+                        "name": "Rap",
+                        "path": [
+                            133
+                        ],
+                        "slug": "rap-hip-hop"
+                    },
+                    {
+                        "id": 117,
+                        "percent": 11.76,
+                        "color": "#5eabc1",
+                        "name": "Pop",
+                        "path": [
+                            112,
+                            117
+                        ],
+                        "slug": "pop"
+                    }
+                ],
+                "images150": [
+                    "http://static.qobuz.com/images/covers/04/35/0060253703504_150.jpg",
+                    "http://static.qobuz.com/images/covers/90/73/3610153537390_150.jpg",
+                    "http://static.qobuz.com/images/covers/77/36/5060281613677_150.jpg",
+                    "http://static.qobuz.com/images/covers/19/21/0886444322119_150.jpg"
+                ],
+                "is_collaborative": false,
+                "images300": [
+                    "http://static.qobuz.com/images/covers/04/35/0060253703504_300.jpg",
+                    "http://static.qobuz.com/images/covers/90/73/3610153537390_300.jpg",
+                    "http://static.qobuz.com/images/covers/77/36/5060281613677_300.jpg",
+                    "http://static.qobuz.com/images/covers/19/21/0886444322119_300.jpg"
+                ],
+                "users_count": 0,
+                "id": 587535,
+                "duration": 7912,
+                "updated_at": 1400692407,
+                "is_public": true,
+                "description": "",
+                "name": "hhh party",
+                "owner": {
+                    "id": 12345,
+                    "name": "loris"
+                },
+                "images": [
+                    "http://static.qobuz.com/images/covers/04/35/0060253703504_50.jpg",
+                    "http://static.qobuz.com/images/covers/90/73/3610153537390_50.jpg",
+                    "http://static.qobuz.com/images/covers/77/36/5060281613677_50.jpg",
+                    "http://static.qobuz.com/images/covers/19/21/0886444322119_50.jpg"
+                ],
+                "created_at": 1399561012,
+                "position": 7
+            },
+            {
+                "tracks_count": 143,
+                "genres": [
+                    {
+                        "id": 112,
+                        "percent": 30.77,
+                        "color": "#5eabc1",
+                        "name": "Pop/Rock",
+                        "path": [
+                            112
+                        ],
+                        "slug": "pop-rock"
+                    },
+                    {
+                        "id": 117,
+                        "percent": 18.18,
+                        "color": "#5eabc1",
+                        "name": "Pop",
+                        "path": [
+                            112,
+                            117
+                        ],
+                        "slug": "pop"
+                    },
+                    {
+                        "id": 6,
+                        "percent": 11.89,
+                        "color": "#5eabc1",
+                        "name": "Chanson française",
+                        "path": [
+                            94,
+                            151,
+                            6
+                        ],
+                        "slug": "chanson-francaise"
+                    },
+                    {
+                        "id": 132,
+                        "percent": 7.69,
+                        "color": "#5eabc1",
+                        "name": "R&B",
+                        "path": [
+                            127,
+                            132
+                        ],
+                        "slug": "rb"
+                    }
+                ],
+                "images150": [
+                    "http://static.qobuz.com/images/covers/60/47/0829410414760_150.jpg",
+                    "http://static.qobuz.com/images/covers/42/34/0886443973442_150.jpg",
+                    "http://static.qobuz.com/images/covers/00/94/0884977849400_150.jpg",
+                    "http://static.qobuz.com/images/covers/68/48/0060253724868_150.jpg"
+                ],
+                "is_collaborative": false,
+                "images300": [
+                    "http://static.qobuz.com/images/covers/60/47/0829410414760_300.jpg",
+                    "http://static.qobuz.com/images/covers/42/34/0886443973442_300.jpg",
+                    "http://static.qobuz.com/images/covers/00/94/0884977849400_300.jpg",
+                    "http://static.qobuz.com/images/covers/68/48/0060253724868_300.jpg"
+                ],
+                "users_count": 3,
+                "id": 374582,
+                "duration": 33651,
+                "updated_at": 1417869527,
+                "is_public": true,
+                "description": "",
+                "name": "14 juillet",
+                "owner": {
+                    "id": 164532,
+                    "name": "blanchedelaforce"
+                },
+                "images": [
+                    "http://static.qobuz.com/images/covers/60/47/0829410414760_50.jpg",
+                    "http://static.qobuz.com/images/covers/42/34/0886443973442_50.jpg",
+                    "http://static.qobuz.com/images/covers/00/94/0884977849400_50.jpg",
+                    "http://static.qobuz.com/images/covers/68/48/0060253724868_50.jpg"
+                ],
+                "created_at": 1373697813,
+                "position": 8
+            }
+        ]
+    }
+}
