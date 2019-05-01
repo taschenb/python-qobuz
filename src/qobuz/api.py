@@ -9,17 +9,21 @@ except ImportError:
 
 API_URL = "https://www.qobuz.com/api.json/0.2/"
 APP_ID = None
+APP_SECRET = None
 
 
-def register_app(app_id):
+def register_app(app_id, app_secret=None):
     """Save the app's id and secret to be used when needed.
 
     Parameters
     ----------
     app_id: str
         The ID of the APP, issued by api@qobuz.com
+    app_secret: str
+        The secret to the app_id should anythin be used that requires a secret
     """
     qobuz.api.APP_ID = app_id
+    qobuz.api.APP_SECRET = app_secret
 
 
 def request(url, comma_encoding=True, **params):
@@ -30,7 +34,7 @@ def request(url, comma_encoding=True, **params):
     An APP_ID can be requested from api@qobuz.com.
 
     >>> import qobuz
-    >>> qobuz.api.register_app(app_id="your_app_id")
+    >>> qobuz.api.register_app(app_id="your_app_id", app_secret="your secret")
 
     Parameters
     ----------
