@@ -130,10 +130,14 @@ class Playlist(object):
             )
 
     @classmethod
-    def from_id(cls, playlist_id):
-        playlist = api.request("playlist/get", playlist_id=playlist_id)
+    def from_id(cls, playlist_id, user=None):
+        token = user.auth_token if user is not None else None
 
-        return cls(playlist)
+        playlist = api.request(
+            "playlist/get", playlist_id=playlist_id, user_auth_token=token
+        )
+
+        return cls(playlist, user=user)
 
     @classmethod
     def search(cls, query, limit=50, offset=0):
