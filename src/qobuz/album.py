@@ -62,6 +62,25 @@ class Album(object):
         return cls(qobuz.api.request("album/get", album_id=id))
 
     @classmethod
+    def get_featured(cls, type="new-releases", limit=50, offset=0):
+        """Get featured albums.
+
+        Parameters
+        ----------
+        type: str
+            Accepted values are:
+            most-streamed, best-sellers, new-releases, press-awards,
+            editor-picks, most-featured, new-releases-full, recent-releases,
+            ideal-discography, qobuzissims, album-of-the-week,
+            re-release-of-the-week
+        """
+        albums = qobuz.api.request(
+            "album/getFeatured", type=type, offset=offset, limit=limit
+        )
+
+        return [cls(a) for a in albums["albums"]["items"]]
+
+    @classmethod
     def search(cls, query, limit=50, offset=0):
         """Search for a album.
 
