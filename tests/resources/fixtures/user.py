@@ -15,7 +15,7 @@ def user():
     with responses.RequestsMock() as response_mock:
         response_mock.add(
             responses.GET,
-            url=get_url(username, password),
+            url=get_url(username, password, None),
             json=user_login_json,
             status=200,
             match_querystring=False,

@@ -1,4 +1,5 @@
 import hashlib
+import uuid
 
 from qobuz import api, Artist, Album, Track, Playlist
 
@@ -16,32 +17,22 @@ class User(object):
         Password for the username
     """
 
-    def __init__(self, username, password):
+    def __init__(self, username, password, device_manufacturer_id=None):
         self.username = username
-        self.auth_token = self.login(self.username, password)
+        if device_manufacturer_id is None:
+            device_manufacturer_id = uuid.uuid4()
 
-    def login(self, username, password):
-        """Login and return a authentication token.
-
-        Parameters
-        ----------
-        username: str
-            Username or e-mail of the user
-        password: str
-            Password for the username
-
-        Returns
-        -------
-        str
-            User's authentication token
-        """
-        user = api.request(
+        login_resp = api.request(
             "user/login",
             username=username,
             password=self._hash_password(password),
+            device_manufacturer_id=device_manufacturer_id,
         )
 
-        return user["user_auth_token"]
+        self.auth_token = login_resp["user_auth_token"]
+        self.id = login_resp["user"]["id"]
+        self.credential_id = login_resp["user"]["credential"]["id"]
+        self.device_id = login_resp["user"]["device"]["id"]
 
     @staticmethod
     def _hash_password(password):
