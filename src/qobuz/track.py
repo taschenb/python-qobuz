@@ -33,10 +33,13 @@ class Track(object):
         "maximum_format_id",
     ]
 
-    def __init__(self, track_item):
+    def __init__(self, track_item, album=None):
         self.id = track_item.get("id")
         self.title = track_item.get("title")
-        self.album = Album(track_item.get("album"))
+        if album is not None:
+            self.album = album
+        else:
+            self.album = Album(track_item.get("album"))
         self.duration = track_item.get("duration")
         self.media_number = track_item.get("media_number")
         self.track_number = track_item.get("track_number")
