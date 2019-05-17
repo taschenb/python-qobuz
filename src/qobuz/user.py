@@ -177,7 +177,7 @@ class User(object):
         Parameters
         ----------
         fav_type: str
-            Favorite type: 'artist', 'album' or 'track'
+            Favorite type: 'artists', 'albums' or 'tracks'
         limit: int
             Number of elements returned per request
         offset: int
@@ -196,11 +196,11 @@ class User(object):
             user_auth_token=self.auth_token,
         )
 
-        if fav_type == "artist":
+        if fav_type == "artists":
             return [Artist(f) for f in favorites["artists"]["items"]]
-        if fav_type == "album":
+        if fav_type == "albums":
             return [Album(f) for f in favorites["albums"]["items"]]
-        if fav_type == "track":
+        if fav_type == "tracks":
             return [Track(f) for f in favorites["tracks"]["items"]]
         else:
             all_favorites = [Artist(f) for f in favorites["artists"]["items"]]

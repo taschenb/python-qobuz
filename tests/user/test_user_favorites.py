@@ -11,11 +11,12 @@ def app():
     qobuz.api.register_app(app_id="request_from_api@qobuz.com")
 
 
-def get_favorite_albums_url(user_auth_token, limit=50, offset=0):
+def get_favorite_albums_url(user_auth_token, fav_type="albums",
+                            limit=50, offset=0):
     return (
         qobuz.api.API_URL
         + "favorite/getUserFavorites"
-        + "?type=album"
+        + "?type={}".format(fav_type)
         + "&limit={}".format(limit)
         + "&offset={}".format(offset)
         + "&user_auth_token={}".format(user_auth_token)
@@ -58,20 +59,20 @@ def response_fav_get_albums(user):
 
 
 def test_user_favorite_get_albums_type(app, user, response_fav_get_albums):
-    albums = user.favorites_get(fav_type="album")
+    albums = user.favorites_get(fav_type="albums")
 
     for a in albums:
         assert isinstance(a, qobuz.Album)
 
 
 def test_user_favorite_get_albums_len(app, user, response_fav_get_albums):
-    albums = user.favorites_get(fav_type="album")
+    albums = user.favorites_get(fav_type="albums")
 
     assert len(albums) == user_fav_get_albums_json["albums"]["limit"]
 
 
 def test_user_favorite_get_albums_content(app, user, response_fav_get_albums):
-    albums = user.favorites_get(fav_type="album")
+    albums = user.favorites_get(fav_type="albums")
 
     for i in range(len(albums)):
         assert albums[i] == qobuz.Album(
