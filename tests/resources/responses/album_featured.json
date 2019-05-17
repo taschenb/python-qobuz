@@ -1,0 +1,143 @@
+{
+    "albums": {
+        "offset": 0,
+        "limit": 2,
+        "total": 91,
+        "items": [
+            {
+                "tracks_count": 12,
+                "genre": {
+                    "id": 129,
+                    "color": "#5eabc1",
+                    "name": "Dance",
+                    "path": [
+                        64,
+                        129
+                    ],
+                    "slug": "dance"
+                },
+                "articles": [
+                    {
+                        "id": 57418123,
+                        "price": 12.99,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/57418123",
+                        "currency": "EUR"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/57/38/0617465593857_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/57/38/0617465593857_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/57/38/0617465593857_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 40806,
+                    "supplier_id": 23,
+                    "albums_count": 794,
+                    "name": "Ultra Records, LLC",
+                    "slug": "ultra-records-llc"
+                },
+                "id": "0617465593857",
+                "duration": 2632,
+                "released_at": 1431381600,
+                "title": "Neon Future II",
+                "artist": {
+                    "picture": null,
+                    "id": 296011,
+                    "albums_count": 59,
+                    "name": "Steve Aoki",
+                    "image": null,
+                    "slug": "steve-aoki"
+                },
+                "qobuz_id": 23682314,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1431381600,
+                "streamable_at": 1431381600,
+                "maximum_sampling_rate": 44.1,
+                "maximum_bit_depth": 16,
+                "hires": false
+            },
+            {
+                "tracks_count": 8,
+                "genre": {
+                    "id": 64,
+                    "color": "#5eabc1",
+                    "name": "Electro",
+                    "path": [
+                        64
+                    ],
+                    "slug": "electro"
+                },
+                "articles": [
+                    {
+                        "id": 59264155,
+                        "price": 8.99,
+                        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Qualité CD 16 bits",
+                        "type": "lls",
+                        "url": "/order/59264155",
+                        "currency": "EUR"
+                    },
+                    {
+                        "id": 59264156,
+                        "price": 13.49,
+                        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+                        "label": "Hi-Res",
+                        "type": "smr",
+                        "url": "/order/59264156",
+                        "currency": "EUR"
+                    }
+                ],
+                "image": {
+                    "thumbnail": "http://static.qobuz.com/images/covers/98/79/5414939917998_50.jpg",
+                    "back": null,
+                    "small": "http://static.qobuz.com/images/covers/98/79/5414939917998_230.jpg",
+                    "large": "http://static.qobuz.com/images/covers/98/79/5414939917998_600.jpg"
+                },
+                "media_count": 1,
+                "label": {
+                    "id": 12337,
+                    "supplier_id": 30,
+                    "albums_count": 214,
+                    "name": "Play It Again Sam",
+                    "slug": "play-it-again-sam"
+                },
+                "id": "5414939917998",
+                "duration": 3024,
+                "released_at": 1431295200,
+                "title": "Hairless Toys",
+                "artist": {
+                    "picture": null,
+                    "id": 39028,
+                    "albums_count": 27,
+                    "name": "Roisin Murphy",
+                    "image": null,
+                    "slug": "roisin-murphy"
+                },
+                "qobuz_id": 24374465,
+                "popularity": 0,
+                "purchasable": true,
+                "streamable": false,
+                "previewable": true,
+                "sampleable": true,
+                "downloadable": true,
+                "displayable": true,
+                "purchasable_at": 1431295200,
+                "streamable_at": 1431295200,
+                "maximum_sampling_rate": 96,
+                "maximum_bit_depth": 24,
+                "hires": true
+            }
+        ]
+    }
+}
