@@ -212,7 +212,7 @@ class User(object):
             )
             return all_favorites
 
-    def playlists_get(self, filter='owner', limit=50, offset=0):
+    def playlists_get(self, filter="owner", limit=50, offset=0):
         result = api.request(
             "playlist/getUserPlaylists",
             filter=filter,
