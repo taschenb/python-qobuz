@@ -1,4 +1,4 @@
-from qobuz import api, Artist
+import qobuz
 
 
 class Album(object):
@@ -19,7 +19,7 @@ class Album(object):
         "tracks_count",
         "released_at",
         "artist",
-        "tracks",
+        "_tracks",
     ]
 
     def __init__(self, album_item):
@@ -27,11 +27,26 @@ class Album(object):
         self.title = album_item.get("title")
         self.tracks_count = album_item.get("tracks_count")
         self.released_at = album_item.get("released_at")
-        self.artist = Artist(album_item["artist"])
+        self.artist = qobuz.Artist(album_item["artist"])
+        self._tracks = None
 
     @property
     def type(self):
         return "album"
+
+    @property
+    def tracks(self):
+        if self._tracks is None:
+            self._update_tracks()
+
+        return self._tracks
+
+    def _update_tracks(self):
+        resp = qobuz.api.request("album/get", album_id=self.id)
+
+        self._tracks = [
+            qobuz.Track(t, album=self) for t in resp["tracks"]["items"]
+        ]
 
     def __eq__(self, other):
         return (
@@ -44,7 +59,7 @@ class Album(object):
 
     @classmethod
     def from_id(cls, id):
-        return cls(api.request("album/get", album_id=id))
+        return cls(qobuz.api.request("album/get", album_id=id))
 
     @classmethod
     def search(cls, query, limit=50, offset=0):
@@ -64,7 +79,7 @@ class Album(object):
         list of Album
             Resulting albums for the search query
         """
-        albums = api.request(
+        albums = qobuz.api.request(
             "album/search", query=query, offset=offset, limit=limit
         )
 
