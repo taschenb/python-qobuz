@@ -84,6 +84,30 @@ def _request(url, **params):
     return r.json()
 
 
+def post(url, data, **params):
+    """Send a POST request.
+
+    Parameters
+    ----------
+    url: str
+        URL to be joined with the base URL API_URL
+    data: str
+        Payload to be sent
+    **params
+        GET parameters to be added to the request
+    """
+    params["app_id"] = APP_ID
+
+    headers = {"Content-type": "application/x-www-form-urlencoded"}
+
+    r = requests.post(
+        urljoin(API_URL, url), params=params, headers=headers, data=data
+    )
+    r.raise_for_status()
+
+    return r.json()
+
+
 def _request_comma_params(url, **params):
     """Make a API request without encoding commas.
 
