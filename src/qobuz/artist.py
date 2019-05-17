@@ -1,4 +1,4 @@
-from qobuz import api
+import qobuz
 
 
 class Artist(object):
@@ -35,6 +35,17 @@ class Artist(object):
     def type(self):
         return "artist"
 
+    def get_all_tracks(self, offset=0, limit=50):
+        res = qobuz.api.request(
+            "artist/get",
+            artist_id=self.id,
+            extra="tracks",
+            offset=offset,
+            limit=limit,
+        )
+
+        return [qobuz.Track(t) for t in res["tracks"]["items"]]
+
     def get_all_albums(self, offset=0, limit=50):
         """Return albums of an artist.
 
@@ -50,9 +61,7 @@ class Artist(object):
         list of Album
             Albums from the artist
         """
-        from qobuz import Album
-
-        albums = api.request(
+        albums = qobuz.api.request(
             "artist/get",
             artist_id=self.id,
             extra="albums",
@@ -60,11 +69,11 @@ class Artist(object):
             limit=limit,
         )
 
-        return [Album(a) for a in albums["albums"]["items"]]
+        return [qobuz.Album(a) for a in albums["albums"]["items"]]
 
     @classmethod
     def from_id(cls, id):
-        return cls(api.request("artist/get", artist_id=id))
+        return cls(qobuz.api.request("artist/get", artist_id=id))
 
     @classmethod
     def search(cls, artist, limit=50, offset=0):
@@ -84,7 +93,7 @@ class Artist(object):
         list of Artist
             Resulting playlists for the search query
         """
-        req = api.request(
+        req = qobuz.api.request(
             "artist/search", query=artist, limit=limit, offset=offset
         )
 
